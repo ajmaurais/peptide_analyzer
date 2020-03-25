@@ -11,7 +11,7 @@ def write_fasta_entry(fname, acession, sequence, description='', write_mode='a')
     ----------
     fname: str
         Path to file to write to.
-    acession: str
+    accession: str
         Unique identifier for sequence.
     sequence: str
         Entry sequence.
@@ -36,7 +36,7 @@ def write_fasta_entry(fname, acession, sequence, description='', write_mode='a')
 
 class FastaFile(object):
     '''
-    Basic FastaFile container, optimized for random acess.
+    Basic FastaFile container, optimized for random access.
 
     A file is parsed with a regular expression for uniprot fasta entries.
     (see FastaFile.entry_re for the regex which is used.)
@@ -74,7 +74,7 @@ class FastaFile(object):
         index: int
             Index of element
         id: str
-            Acession of entry.
+            Accession of entry.
         '''
 
         for i, k in enumerate(self._id_offsets.keys()):
@@ -89,7 +89,7 @@ class FastaFile(object):
         index: int
             Index of element
         id: str
-            Acession of entry.
+            Accession of entry.
         seq: str
             Sequence of entry.
         '''
@@ -102,13 +102,13 @@ class FastaFile(object):
 
     def id_exists(self, acession):
         '''
-        Return True if `acession` exists file.
+        Return True if `accession` exists file.
         '''
         return self.__contains__(acession)
 
     def get_offset(self, acession):
         '''
-        Get the index offsets of `acession` in self._fbuff.
+        Get the index offsets of `accession` in self._fbuff.
 
         Return
         ------
@@ -117,7 +117,7 @@ class FastaFile(object):
 
         Raises
         ------
-        KeyError if !self.id_exists(acession)
+        KeyError if !self.id_exists(accession)
         '''
 
         if not self.id_exists(acession):
@@ -132,16 +132,16 @@ class FastaFile(object):
 
     def get_sequence(self, acession):
         '''
-        Returns sequence of `acession`.
+        Returns sequence of `accession`.
 
         Raises
         ------
         KeyError:
-            if !self.id_exists(acession)
+            if !self.id_exists(accession)
         AssertionError:
             if not able to match self.entry_re at offset.
         AssertionError:
-            if acession of match does not match `acession`
+            if accession of match does not match `accession`
         '''
 
         _offset = self.get_offset(acession)

@@ -33,11 +33,11 @@ class DataFrame(object):
 
     def __setitem__(self, col, value):
         if not isinstance(value, list):
-            raise ValueError('value must be of type {}. Recieved {}'.format(type(self._data),
+            raise ValueError('value must be of type {}. Received {}'.format(type(self._data),
                                                                             type(value)))
         if not self.empty():
             if len(value) != len(self._data[0]):
-                raise ValueError('Atempting to add column of lenght {}'
+                raise ValueError('Attempting to add column of length {}'
                                  ' to DataFrame with columns of length {}'.format(len(value),
                                                                                   len(self._data[0])))
         if col not in self._keys:

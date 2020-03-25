@@ -97,12 +97,14 @@ class FastaFile(object):
         for i, (k, v) in enumerate(self._id_offsets.items()):
             yield i, k, self._get_sequence(k, v[0], v[1])
 
+    def __contains__(self, acession):
+        return acession in self._id_offsets
+
     def id_exists(self, acession):
         '''
         Return True if `acession` exists file.
         '''
-
-        return acession in self._id_offsets
+        return self.__contains__(acession)
 
     def get_offset(self, acession):
         '''

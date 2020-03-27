@@ -8,16 +8,32 @@ class DataFrame(object):
     Lightweight DataFrame class which recreates some of the
     functionality as a Pandas.DataFrame without having to
     import the entire Pandas library.
+
+    Paramaters
+    ----------
+    data: dict
+        Dict with column names as keys, and column values as list like objects.
     '''
     
     _MAX_REPR_PRINT = 100
 
-    def __init__(self):
-        self.nrow = 0
-        self.ncol = 0
-        self._data = list()
+    def __init__(self, data=None):
         self.columns = list()
         self._keys = dict()
+        self._data = list()
+        self.nrow = 0
+        self.ncol = 0
+        if data is not None:
+            lengths = set()
+            for i, (k, v) in enumerate(data.items()):
+                lengths.add(len(v))
+                if len(lengths) != 1:
+                    raise ValueError('arrays must all be same length')
+                self.columns.append(k)
+                self._keys[k] = i
+                self._data.append(v)
+            self.nrow = len(self._data[0])
+            self.ncol = len(self.columns)
 
     def empty(self):
         ''' Return true if DataFrame is empty. '''

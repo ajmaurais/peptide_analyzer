@@ -27,8 +27,13 @@ class DataFrame(object):
     3          'P42224'     'HLLPLWNDGC*IMGFISK'
     4          'Q15257'        'QSVSC*DEC*IPLPR'
     ########## Reached self._MAX_REPR_PRINT ##########
+    
+    Get a list of column names by calling the columns member.
+    
+    >>> dat.columns
+    ['ID', 'seq']
 
-    You can get and set column contents with the [] operator.
+    Get and set column contents with the [] operator.
 
     >>> dat['ID']
     ['P26641',
@@ -47,7 +52,7 @@ class DataFrame(object):
     4 'Q15257'        'QSVSC*DEC*IPLPR'             ''
     ########## Reached self._MAX_REPR_PRINT ##########
 
-    You can iterate through the DataFrame contents by row with the iterrows method.
+    Iterate through the DataFrame contents by row with the iterrows method.
 
     >>> for i, r in dat.iterrows():
     ...    print(r['seq'])

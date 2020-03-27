@@ -1,5 +1,4 @@
 
-import sys
 import re
 
 
@@ -40,8 +39,8 @@ class FastaFile(object):
 
     A file is parsed with a regular expression for UniProt fasta entries.
     (see FastaFile.entry_re for the regex which is used.)
-    The text of the file is stored in self._fbuff, and
-    a dict containing ids, and index offsets is stored in self._id_offsets.
+    The text of the file is stored in FastaFile._fbuff, and a dict
+    containing ids, and index offsets is stored in FastaFile._id_offsets.
 
     Examples
     --------
@@ -65,7 +64,7 @@ class FastaFile(object):
     >>> fasta.get_sequence('DUMMY_ID')
     KeyError: 'DUMMY_ID does not exist in FastaFile!'
 
-    You can check wether a sequence exists in the file for a give acession.
+    You can check wether a sequence exists in the file for a given acession.
 
     >>> fasta.id_exists('DUMMY_ID')
     False
@@ -136,7 +135,7 @@ class FastaFile(object):
         '''
         return self.__contains__(acession)
 
-    def get_offset(self, acession):
+    def _get_offset(self, acession):
         '''
         Get the index offsets of `accession` in self._fbuff.
 
@@ -174,6 +173,6 @@ class FastaFile(object):
             if accession of match does not match `accession`
         '''
 
-        _offset = self.get_offset(acession)
+        _offset = self._get_offset(acession)
         return self._get_sequence(acession, _offset[0], _offset[1])
 

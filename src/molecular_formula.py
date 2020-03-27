@@ -1,5 +1,6 @@
 
 from collections import Counter
+import dataframe
 
 _ATOM_MASSES = {"C": 12,
                 "H": 1.00783,
@@ -13,6 +14,7 @@ _ATOM_MASSES = {"C": 12,
                 "Se": 79.91652,
                 "Cl": 34.96885,
                 "Br": 78.91834}
+
 
 def read_atom_count_table(fname):
     '''
@@ -30,26 +32,27 @@ def read_atom_count_table(fname):
         Counter objects with their atom counts.
     '''
 
-    with open(fname, 'r') as inF:
-        lines = inF.readlines()
-            
-    headers = dict()
-    headers_len = 0
-    atom_counts=dict()
-    for line in lines:
-        elems = [x.strip() for x in line.split('\t')]
-        if elems[0] == 'H':
-            headers = [x for x in elems]
-            headers_len = len(headers)
-            atom_counts = {headers[i]: None for range(1, headers_len)}
-            continue
-        elif elems[0] == 'R':
-            if not headers or len(elems) != headers_len:
-                raise ValueError('Badly formed atom_table file!')
-                for i in range(1, headers_len):
-                    atom_counts[headers[i]]
-            continue
-        else:
-            raise ValueError('Badly formed atom_table file!')
+    # read residue atoms table in to DataFrame
+    residue_atoms = dataframe.read_tsv(fname)
 
+    # Make a list of atoms included in the table
+    atoms = [a for a in residue_atoms.columns if a != 'residue']
+    
+    # Iterate through residue_atoms rows
+    atom_counts = dict()
+    for i, row in residue_atoms.iterrows():
+
+        # for each row add a Counter containing the number of atoms in each residue.
+        atom_counts[row['residue']] = Counter()
+
+        # then add the atom counts for the current residue
+        for atom in atoms:
+            atom_counts[row['residue']][atom] = int(row[atom])
+
+    return atom_counts
+
+def calc_formulas(sequence, residue_atoms):
+
+    pass
+        
 

@@ -38,7 +38,7 @@ class FastaFile(object):
     '''
     Basic FastaFile container, optimized for random access.
 
-    A file is parsed with a regular expression for uniprot fasta entries.
+    A file is parsed with a regular expression for UniProt fasta entries.
     (see FastaFile.entry_re for the regex which is used.)
     The text of the file is stored in self._fbuff, and
     a dict containing ids, and index offsets is stored in self._id_offsets.

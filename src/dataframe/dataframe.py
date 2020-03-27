@@ -9,7 +9,7 @@ class DataFrame(object):
     functionality as a Pandas.DataFrame without having to
     import the entire Pandas library.
 
-    Paramaters
+    Parameters
     ----------
     data: dict
         Dict with column names as keys, and column values as list like objects.
@@ -65,7 +65,7 @@ class DataFrame(object):
 
     def _format_r_rows(self, r, print_header=True, delim=' '):
         '''
-        Return formated stirng with rows in range `r`.
+        Return formatted string with rows in range `r`.
         '''
         
         spaces = list()
@@ -119,7 +119,7 @@ class DataFrame(object):
         '''
         Write DataFrame to file.
 
-        Paramaters
+        Parameters
         ----------
         fname: str
             Path to file to write to.
@@ -145,7 +145,7 @@ class DataFrame(object):
 def read_tsv(fname, hasHeader=True):
     '''
     Read csv or tsv file into DataFrame.
-    File format and deliminators are detected automatically using csv.Sniffer().
+    File format and delimiters are detected automatically using csv.Sniffer().
 
     Parameters
     ----------

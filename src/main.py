@@ -10,7 +10,7 @@ def read_input(fname):
     '''
     Read input file.'
 
-    Paramarers
+    Parameters
     ----------
     fname: str
         Path to input file.
@@ -29,7 +29,7 @@ def get_modified_residue_numbers(peptide_seq, protein_seq):
     Get the numbers of modified modified peptide residues in the parent protein .
     Modification sites are indicated with a '*' after the modified residue.
 
-    Paramarers
+    Parameters
     ----------
     peptide_seq: str
         Modified peptide sequence.
@@ -39,13 +39,13 @@ def get_modified_residue_numbers(peptide_seq, protein_seq):
     Returns
     -------
     modifications: tuple
-        0 indexed locaions of modifications in parent potein.
+        0 indexed locations of modifications in parent protein.
     '''
 
     # Get peptide sequence without modifications
     unmodified_seq = peptide_seq.replace('*', '')
 
-    # Find begining index of peptide in parent protein
+    # Find beginning index of peptide in parent protein
     peptide_begin = protein_seq.find(unmodified_seq)
     peptide_sites = list()
     for i, m in enumerate(re.finditer(r'[A-Z]\*', peptide_seq)):
@@ -67,7 +67,7 @@ def main():
     '''
 
     parser = argparse.ArgumentParser(prog=__file__,
-                                     description='Read a .tsv file containing peptides and uniprot '
+                                     description='Read a .tsv file containing peptides and UniProt '
                                      'IDs and do some analysis on them.')
 
     parser.add_argument('fasta_path', help='Path to fasta file to look up sequences.')

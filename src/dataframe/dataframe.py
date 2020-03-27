@@ -11,10 +11,55 @@ class DataFrame(object):
 
     Parameters
     ----------
-    data: dict
+    data: dict, default None
         Dict with column names as keys, and column values as list like objects.
+
+    Examples
+    --------
+    Read .tsv file into DataFrame
+
+    >>> dat = dataframe.read_tsv('testData/input_peptides.tsv')
+    >>> dat
+                    ID                      seq
+    0          'P26641' 'FPEELTQTFMSC*NLITGMFQR'
+    1          'Q9NTZ6'        'VC*AHITNIPFSITK'
+    2          'P19012'         'AGLENSLAETEC*R'
+    3          'P42224'     'HLLPLWNDGC*IMGFISK'
+    4          'Q15257'        'QSVSC*DEC*IPLPR'
+    ########## Reached self._MAX_REPR_PRINT ##########
+
+    You can get and set column contents with the [] operator.
+
+    >>> dat['ID']
+    ['P26641',
+     'Q9NTZ6',
+     'P19012',
+     'P42224',
+     'Q15257',
+        ...
+    >>> dat['another_column'] = ['' for _ in range(dat.nrow)]
+    >>> dat
+           ID                      seq another_column
+    0 'P26641' 'FPEELTQTFMSC*NLITGMFQR'             ''
+    1 'Q9NTZ6'        'VC*AHITNIPFSITK'             ''
+    2 'P19012'         'AGLENSLAETEC*R'             ''
+    3 'P42224'     'HLLPLWNDGC*IMGFISK'             ''
+    4 'Q15257'        'QSVSC*DEC*IPLPR'             ''
+    ########## Reached self._MAX_REPR_PRINT ##########
+
+    You can iterate through the DataFrame contents by row with the iterrows method.
+
+    >>> for i, r in dat.iterrows():
+    ...    print(r['seq'])
+    FPEELTQTFMSC*NLITGMFQR
+    VC*AHITNIPFSITK
+    AGLENSLAETEC*R
+    HLLPLWNDGC*IMGFISK
+    QSVSC*DEC*IPLPR
+    DFTPVC*TTELGR
+        ...
     '''
-    
+
     _MAX_REPR_PRINT = 100
 
     def __init__(self, data=None):
@@ -43,9 +88,17 @@ class DataFrame(object):
         return self.nrow
 
     def __getitem__(self, col):
-        if col not in self._keys:
-            raise KeyError('{} is not a column in DataFrame!'.format(col))
-        return self._data[self._keys[col]]
+        if isinstance(col, list):
+            ret = DataFrame()
+            for c in col:
+                if c not in self._keys:
+                    raise KeyError('{} is not a column in DataFrame!'.format(col))
+                ret[c] = self._data[self._keys[c]]
+        else:
+            if col not in self._keys:
+                raise KeyError('{} is not a column in DataFrame!'.format(col))
+            ret = self._data[self._keys[col]]
+        return ret
 
     def __setitem__(self, col, value):
         if not isinstance(value, list):
@@ -56,6 +109,9 @@ class DataFrame(object):
                 raise ValueError('Attempting to add column of length {}'
                                  ' to DataFrame with columns of length {}'.format(len(value),
                                                                                   len(self._data[0])))
+        else:
+            self.nrow = len(value)
+
         if col not in self._keys:
             self.columns.append(col)
             self._keys[col] = len(self.columns) - 1

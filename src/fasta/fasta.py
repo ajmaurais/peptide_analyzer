@@ -42,6 +42,36 @@ class FastaFile(object):
     (see FastaFile.entry_re for the regex which is used.)
     The text of the file is stored in self._fbuff, and
     a dict containing ids, and index offsets is stored in self._id_offsets.
+
+    Examples
+    --------
+    Initialize and read FastaFile.
+
+    >>> fasta = FastaFile()
+    >>> fasta.read(file_path)
+
+    You can now acess the sequences in the fasta file
+
+    >>> fasta.get_sequence('P26641')
+    'MAAGTLYTYPENWRAFKALIAAQYSGAQVRVLSAPPHFHFGQTNRTPEFLRKFPAGKVPAFEGDDGFCVFESNAI
+    AYYVSNEELRGSTPEAAAQVVQWVSFADSDIVPPASTWVFPTLGIMHHNKQATENAKEEVRRILGLLDAYLKTRTF
+    LVGERVTLADITVVCTLLWLYKQVLEPSFRQAFPNTNRWFLTCINQPQFRAVLGEVKLCEKMAQFDAKKFAETQPK
+    KDTPRKEKGSREEKQKPQAERKEEKKAAAPAPEEEMDECEQALAAEPKAKDPFAHLPKSTFVLDEFKRKYSNEDTL
+    SVALPYFWEHFDKDGWSLWYSEYRFPEELTQTFMSCNLITGMFQRLDKLRKNAFASVILFGTNNSSSISGVWVFRG
+    QELAFPLSPDWQVDYESYTWRKLDPGSEETQTLVREYFSWEGAFQHVGKAFNQGKIFK'
+
+    Attempting to acess a sequence which doesn't exist will raise a KeyError
+
+    >>> fasta.get_sequence('DUMMY_ID')
+    KeyError: 'DUMMY_ID does not exist in FastaFile!'
+
+    You can check wether a sequence exists in the file for a give acession.
+
+    >>> fasta.id_exists('DUMMY_ID')
+    False
+    >>> fasta.id_exists('P26641')
+    True
+
     '''
 
     acession_re = r'\w+'

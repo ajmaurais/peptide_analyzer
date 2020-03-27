@@ -47,14 +47,12 @@ def get_modified_residue_numbers(peptide_seq, protein_seq):
 
     # Find beginning index of peptide in parent protein
     peptide_begin = protein_seq.find(unmodified_seq)
+
+    # Iterate through modification sites on peptide and determine their position on
+    # the parent protein.
     peptide_sites = list()
     for i, m in enumerate(re.finditer(r'[A-Z]\*', peptide_seq)):
         peptide_sites.append(m.start() - i)
-        # for testing
-        # temp = ''.join([str(x).center(3) for x in range(len(unmodified_seq))])
-        # print('{}\n{} -> {}\n{}\n'.format(peptide_seq,
-        #     ''.join([(x + '*' if i in peptide_sites else x).center(3) for i, x in enumerate(list(unmodified_seq))]),
-        #     peptide_sites, temp))
     
     return tuple(i + peptide_begin for i in peptide_sites)
 
@@ -66,22 +64,23 @@ def main():
     This is the function which will be executed first when you call the program form the command line.
     '''
 
+    # Load and parse command line arguments
     parser = argparse.ArgumentParser(prog=__file__,
                                      description='Read a .tsv file containing peptides and UniProt '
                                      'IDs and do some analysis on them.')
-
     parser.add_argument('fasta_path', help='Path to fasta file to look up sequences.')
-
     parser.add_argument('input_file',
                         help='Path to input file. Should be tsv with two columns; "ID" and "seq".')
-
     args = parser.parse_args()
 
+    # read input file
     dat = read_input(args.input_file)
     
+    # load .fasta file
     fasta_db = FastaFile()
     fasta_db.read(args.fasta_path)
     
+    # Find modification sites in parent protein
     mod_locs = list()
     for pid, peptide_seq in zip(dat['ID'], dat['seq']):
         if fasta_db.id_exists(pid):
@@ -91,8 +90,8 @@ def main():
         else:
             mod_locs.append('PROTEIN_SEQ_NOT_FOUND')
     dat['modified_residues'] = mod_locs
-    print(dat)
 
 
 if __name__ == '__main__':
     main()
+

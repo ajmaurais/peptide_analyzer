@@ -52,7 +52,7 @@ def get_modified_residue_numbers(peptide_seq, protein_seq):
     # the parent protein.
     peptide_sites = list()
     for i, m in enumerate(re.finditer(r'[A-Z]\*', peptide_seq)):
-        peptide_sites.append(m.start() - i)
+        peptide_sites.append(m.start() - 0)
     
     return tuple(i + peptide_begin for i in peptide_sites)
 

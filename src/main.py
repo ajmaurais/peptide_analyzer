@@ -3,8 +3,12 @@ import sys
 import argparse
 import re
 
-from dataframe import read_tsv, DataFrame
 from fasta import FastaFile
+from dataframe import read_tsv, DataFrame
+
+import sequences
+import molecular_formula
+
 
 def read_input(fname):
     '''
@@ -24,74 +28,82 @@ def read_input(fname):
     return read_tsv(fname)
 
 
-def get_modified_residue_numbers(peptide_seq, protein_seq):
-    '''
-    Get the numbers of modified modified peptide residues in the parent protein .
-    Modification sites are indicated with a '*' after the modified residue.
+# def main():
+#     '''
+#     Main method.
+# 
+#     This is the function which will be executed first when you call the program form the command line.
+#     '''
+# 
+#     # Load and parse command line arguments
+#     parser = argparse.ArgumentParser(prog=__file__,
+#                                      description='Read a .tsv file containing peptides and UniProt '
+#                                      'IDs and do some analysis on them.')
+#     parser.add_argument('atom_count_table',
+#                         help='Path to table to look up numbers and types of atoms in each residue.')
+#     parser.add_argument('fasta_path', help='Path to fasta file to look up sequences.')
+#     parser.add_argument('input_file',
+#                         help='Path to input file. Should be tsv with two columns; "ID" and "seq".')
+#     args = parser.parse_args()
 
-    Parameters
-    ----------
-    peptide_seq: str
-        Modified peptide sequence.
-    protein_seq: str
-        Parent protein sequence.
+# Hard coded file paths for debuging
+INPUT_FILE_PATH = 'data/input_peptides.tsv'
+ATOM_COUNT_TABLE_PATH = 'data/residue_atoms.txt'
+FASTA_FILE_PATH = 'data/sequences.fasta'
+OUTPUT_FILE_PATH = 'data/output_peptide.tsv'
 
-    Returns
-    -------
-    modifications: tuple
-        0 indexed locations of modifications in parent protein.
-    '''
+# read input file
+# (Call read_dat and set the output to a variable named 'dat')
+dat = read_input(INPUT_FILE_PATH)
 
-    # Get peptide sequence without modifications
-    unmodified_seq = peptide_seq.replace('*', '')
+# Load atom count table and save it to a variable.
+# (Call molecular_formula.read_atom_count_table)
+atom_counts = molecular_formula.read_atom_count_table(ATOM_COUNT_TABLE_PATH)
 
-    # Find beginning index of peptide in parent protein
-    peptide_begin = protein_seq.find(unmodified_seq)
+# Make a list of Counter(s) for each peptide sequence.
+# (Call molecular_formula.calc_formula for each peptide sequence.)
+formulas = [molecular_formula.calc_formula(seq, atom_counts) for seq in dat['seq']]
 
-    # Iterate through modification sites on peptide and determine their position on
-    # the parent protein.
-    peptide_sites = list()
-    for i, m in enumerate(re.finditer(r'[A-Z]\*', peptide_seq)):
-        peptide_sites.append(m.start() - 0)
-    
-    return tuple(i + peptide_begin for i in peptide_sites)
+# Add a column to dat containing the peptide formula
+# (Call molecular_formula.format_formula for each peptide sequence and set the result
+# to a new column in dat named 'formula'.)
+dat['formula'] = [molecular_formula.format_formula(f) for f in formulas]
 
+# Add a column to dat containing the peptide mass
+# (Call molecular_formula.calc_mass for each peptide sequence and set the result
+# to a new column in dat named 'mass'.)
+dat['mass'] = [molecular_formula.calc_mass(f) for f in formulas]
 
-def main():
-    '''
-    Main method.
+# Find modification sites in parent protein
+# load .fasta file
+fasta_db = FastaFile()
+fasta_db.read(FASTA_FILE_PATH)
 
-    This is the function which will be executed first when you call the program form the command line.
-    '''
+# Iterate through dat
+mod_locs = list()
+for i, row in dat.iterrows():
+    # Check if the protein sequence exists in the fasta file.
+    if fasta_db.id_exists(row['ID']):
+        # Get the protein sequence for the current row from the .fasta file
+        protein_seq = fasta_db.get_sequence(row['ID'])
 
-    # Load and parse command line arguments
-    parser = argparse.ArgumentParser(prog=__file__,
-                                     description='Read a .tsv file containing peptides and UniProt '
-                                     'IDs and do some analysis on them.')
-    parser.add_argument('fasta_path', help='Path to fasta file to look up sequences.')
-    parser.add_argument('input_file',
-                        help='Path to input file. Should be tsv with two columns; "ID" and "seq".')
-    args = parser.parse_args()
+        # Get the index locations of the modification(s) in the parent pritein sequence.
+        # (Call sequence.get_modified_residue_numbers)
+        mods = sequences.get_modified_residue_numbers(row['seq'], protein_seq)
 
-    # read input file
-    dat = read_input(args.input_file)
-    
-    # load .fasta file
-    fasta_db = FastaFile()
-    fasta_db.read(args.fasta_path)
-    
-    # Find modification sites in parent protein
-    mod_locs = list()
-    for pid, peptide_seq in zip(dat['ID'], dat['seq']):
-        if fasta_db.id_exists(pid):
-            protein_seq = fasta_db.get_sequence(pid)
-            mods = get_modified_residue_numbers(peptide_seq, protein_seq)
-            mod_locs.append('|'.join(['{}{}'.format(protein_seq[x], x + 1) for x in mods]))
-        else:
-            mod_locs.append('PROTEIN_SEQ_NOT_FOUND')
-    dat['modified_residues'] = mod_locs
+        # Format the modification indecies as <residue><number>|...
+        # Example: C53|C56 or C73
+        mod_locs.append('|'.join(['{}{}'.format(protein_seq[x], x + 1) for x in mods]))
 
+    else:
+        mod_locs.append('PROTEIN_SEQ_NOT_FOUND')
 
-if __name__ == '__main__':
-    main()
+# Add a column to dat named 'modified_residues'
+dat['modified_residues'] = mod_locs
+
+# Write dat to file (Call DataFrame.to_tsv)
+dat.to_tsv('data/output_peptide.tsv')
+
+# if __name__ == '__main__':
+#     main()
 

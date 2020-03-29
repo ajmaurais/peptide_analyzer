@@ -3,6 +3,7 @@
 .RData
 .Rhistory
 README.html
+data/output_peptide.tsv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,6 +1,6 @@
 
+import pandas as pd
 from collections import Counter
-import dataframe
 
 ATOM_MASSES = {"C": 12,
                "H": 1.00783,
@@ -32,12 +32,12 @@ def read_atom_count_table(fname):
         Counter objects with their atom counts.
     '''
 
-    # read residue atoms table in to DataFrame
-    residue_atoms = dataframe.read_tsv(fname)
+    # read residue atoms table into pd.DataFrame
+    residue_atoms = pd.read_csv(fname, sep='\t')
 
     # Make a list of atoms included in the table
     atoms = [a for a in residue_atoms.columns if a != 'residue']
-    
+
     # Iterate through residue_atoms rows
     atom_counts = dict()
     for i, row in residue_atoms.iterrows():
@@ -81,7 +81,7 @@ def calc_formula(sequence, residue_atoms):
         formula.update(residue_atoms[t])
 
     return formula
-        
+
 
 def format_formula(formula_counter):
     '''
@@ -123,7 +123,7 @@ def calc_mass(formula_counter):
     mass: float
         Peptide monoisotpoic mass
     '''
-    
+
     # Initalize mass
     mass = float()
 
@@ -131,7 +131,7 @@ def calc_mass(formula_counter):
     # Use ATOM_MASSES to look up atom masses.
     for atom, count in formula_counter.items():
         mass += (ATOM_MASSES[atom] * count)
-    
+
     return mass
 
 

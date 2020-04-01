@@ -1,0 +1,564 @@
+ID   TBB5_HUMAN              Reviewed;         444 AA.
+AC   P07437; P05218; Q8WUC1; Q9CY33;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 2.
+DT   26-FEB-2020, entry version 230.
+DE   RecName: Full=Tubulin beta chain;
+DE   AltName: Full=Tubulin beta-5 chain;
+GN   Name=TUBB; Synonyms=TUBB5; ORFNames=OK/SW-cl.56;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=6688039; DOI=10.1016/0092-8674(83)90429-4;
+RA   Lee M.G.-S., Lewis S.A., Wilde C.D., Cowan N.J.;
+RT   "Evolutionary history of a multigene family: an expressed human beta-
+RT   tubulin gene and three processed pseudogenes.";
+RL   Cell 33:477-487(1983).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=6865944; DOI=10.1128/mcb.3.5.854;
+RA   Hall J.L., Dudley L., Dobner P.R., Lewis S.A., Cowan N.J.;
+RT   "Identification of two human beta-tubulin isotypes.";
+RL   Mol. Cell. Biol. 3:854-862(1983).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Retina;
+RX   PubMed=11504633; DOI=10.1016/s0968-0896(01)00103-1;
+RA   Crabtree D.V., Ojima I., Geng X., Adler A.J.;
+RT   "Tubulins in the primate retina: evidence that xanthophylls may be
+RT   endogenous ligands for the paclitaxel-binding site.";
+RL   Bioorg. Med. Chem. 9:1967-1976(2001).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RA   Yu W., Gibbs R.A.;
+RL   Submitted (JUN-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Shiina S., Tamiya G., Oka A., Inoko H.;
+RT   "Homo sapiens 2,229,817bp genomic DNA of 6p21.3 HLA class I region.";
+RL   Submitted (SEP-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Shiina T., Ota M., Katsuyama Y., Hashimoto N., Inoko H.;
+RT   "Genome diversity in HLA: a new strategy for detection of genetic
+RT   polymorphisms in expressed genes within the HLA class III and class I
+RT   regions.";
+RL   Submitted (JUL-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Colon adenocarcinoma;
+RA   Shichijo S., Itoh K.;
+RT   "Identification of immuno-peptidmics that are recognized by tumor-reactive
+RT   CTL generated from TIL of colon cancer patients.";
+RL   Submitted (MAY-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain, Eye, Lung, Muscle, and Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [9]
+RP   PROTEIN SEQUENCE OF 1-19; 47-77; 104-174; 242-276; 283-297; 310-359 AND
+RP   363-390, METHYLATION AT ARG-318, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Foreskin fibroblast, and Mammary carcinoma;
+RA   Bienvenut W.V., Campbell A., Ozanne B.W., Lourenco F., Olson M.F.;
+RL   Submitted (DEC-2009) to UniProtKB.
+RN   [10]
+RP   PROTEIN SEQUENCE OF 3-19; 47-58; 63-77; 104-121; 163-174; 242-251; 253-276;
+RP   283-297; 310-318; 325-336 AND 381-390, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Brain, Cajal-Retzius cell, and Fetal brain cortex;
+RA   Lubec G., Vishwanath V., Chen W.-Q., Sun Y.;
+RL   Submitted (DEC-2008) to UniProtKB.
+RN   [11]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=15592455; DOI=10.1038/nbt1046;
+RA   Rush J., Moritz A., Lee K.A., Guo A., Goss V.L., Spek E.J., Zhang H.,
+RA   Zha X.-M., Polakiewicz R.D., Comb M.J.;
+RT   "Immunoaffinity profiling of tyrosine phosphorylation in cancer cells.";
+RL   Nat. Biotechnol. 23:94-101(2005).
+RN   [12]
+RP   PHOSPHORYLATION AT SER-172.
+RX   PubMed=16371510; DOI=10.1091/mbc.e05-07-0621;
+RA   Fourest-Lieuvin A., Peris L., Gache V., Garcia-Saez I., Juillan-Binard C.,
+RA   Lantez V., Job D.;
+RT   "Microtubule regulation in mitosis: tubulin phosphorylation by the cyclin-
+RT   dependent kinase Cdk1.";
+RL   Mol. Biol. Cell 17:1041-1050(2006).
+RN   [13]
+RP   GLYCYLATION.
+RX   PubMed=19524510; DOI=10.1016/j.cell.2009.05.020;
+RA   Rogowski K., Juge F., van Dijk J., Wloga D., Strub J.-M., Levilliers N.,
+RA   Thomas D., Bre M.-H., Van Dorsselaer A., Gaertig J., Janke C.;
+RT   "Evolutionary divergence of enzymatic mechanisms for posttranslational
+RT   polyglycylation.";
+RL   Cell 137:1076-1087(2009).
+RN   [14]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-58, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.C.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [15]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=20191564; DOI=10.1002/cm.20436;
+RA   Leandro-Garcia L.J., Leskela S., Landa I., Montero-Conde C.,
+RA   Lopez-Jimenez E., Leton R., Cascon A., Robledo M., Rodriguez-Antona C.;
+RT   "Tumoral and tissue-specific expression of the major human beta-tubulin
+RT   isotypes.";
+RL   Cytoskeleton 67:214-223(2010).
+RN   [16]
+RP   INTERACTION WITH PIFO.
+RX   PubMed=20643351; DOI=10.1016/j.devcel.2010.06.005;
+RA   Kinzel D., Boldt K., Davis E.E., Burtscher I., Trumbach D., Diplas B.,
+RA   Attie-Bitach T., Wurst W., Katsanis N., Ueffing M., Lickert H.;
+RT   "Pitchfork regulates primary cilia disassembly and left-right asymmetry.";
+RL   Dev. Cell 19:66-77(2010).
+RN   [17]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P., Buerckstuemmer T.,
+RA   Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [18]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-55; THR-285 AND THR-290, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Erythroleukemia;
+RX   PubMed=23186163; DOI=10.1021/pr300630k;
+RA   Zhou H., Di Palma S., Preisinger C., Peng M., Polat A.N., Heck A.J.,
+RA   Mohammed S.;
+RT   "Toward a comprehensive characterization of a human cancer cell
+RT   phosphoproteome.";
+RL   J. Proteome Res. 12:260-271(2013).
+RN   [19]
+RP   INTERACTION WITH DIAPH1, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=23325789; DOI=10.1091/mbc.e12-08-0597;
+RA   Li D., Dammer E.B., Lucki N.C., Sewer M.B.;
+RT   "cAMP-stimulated phosphorylation of diaphanous 1 regulates protein
+RT   stability and interaction with binding partners in adrenocortical cells.";
+RL   Mol. Biol. Cell 24:848-857(2013).
+RN   [20]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [21]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=25944712; DOI=10.1002/pmic.201400617;
+RA   Vaca Jacome A.S., Rabilloud T., Schaeffer-Reiss C., Rompais M., Ayoub D.,
+RA   Lane L., Bairoch A., Van Dorsselaer A., Carapito C.;
+RT   "N-terminome analysis of the human mitochondrial proteome.";
+RL   Proteomics 15:2519-2524(2015).
+RN   [22]
+RP   GLUTAMYLATION.
+RX   PubMed=26875866; DOI=10.1016/j.cell.2016.01.019;
+RA   Valenstein M.L., Roll-Mecak A.;
+RT   "Graded control of microtubule severing by tubulin glutamylation.";
+RL   Cell 164:911-921(2016).
+RN   [23]
+RP   VARIANTS CDCBM6 VAL-299; ILE-353 AND LYS-401, AND CHARACTERIZATION OF
+RP   VARIANTS CDCBM6 VAL-299 AND LYS-401.
+RX   PubMed=23246003; DOI=10.1016/j.celrep.2012.11.017;
+RA   Breuss M., Heng J.I., Poirier K., Tian G., Jaglin X.H., Qu Z., Braun A.,
+RA   Gstrein T., Ngo L., Haas M., Bahi-Buisson N., Moutard M.L., Passemard S.,
+RA   Verloes A., Gressens P., Xie Y., Robson K.J., Rani D.S., Thangaraj K.,
+RA   Clausen T., Chelly J., Cowan N.J., Keays D.A.;
+RT   "Mutations in the beta-tubulin gene TUBB5 cause microcephaly with
+RT   structural brain abnormalities.";
+RL   Cell Rep. 2:1554-1562(2012).
+RN   [24]
+RP   INVOLVEMENT IN CSCSC1, VARIANTS CSCSC1 LYS-15 AND PHE-222, CHARACTERIZATION
+RP   OF VARIANTS CSCSC1 LYS-15 AND PHE-222, SUBUNIT, AND SUBCELLULAR LOCATION.
+RX   PubMed=26637975; DOI=10.1016/j.ajhg.2015.10.014;
+RA   Isrie M., Breuss M., Tian G., Hansen A.H., Cristofoli F., Morandell J.,
+RA   Kupchinsky Z.A., Sifrim A., Rodriguez-Rodriguez C.M., Dapena E.P.,
+RA   Doonanco K., Leonard N., Tinsa F., Moortgat S., Ulucan H., Koparir E.,
+RA   Karaca E., Katsanis N., Marton V., Vermeesch J.R., Davis E.E., Cowan N.J.,
+RA   Keays D.A., Van Esch H.;
+RT   "Mutations in Either TUBB or MAPRE2 Cause Circumferential Skin Creases
+RT   Kunze Type.";
+RL   Am. J. Hum. Genet. 97:790-800(2015).
+CC   -!- FUNCTION: Tubulin is the major constituent of microtubules. It binds
+CC       two moles of GTP, one at an exchangeable site on the beta chain and one
+CC       at a non-exchangeable site on the alpha chain.
+CC   -!- SUBUNIT: Heterodimer of alpha and beta chains (PubMed:26637975). A
+CC       typical microtubule is a hollow water-filled tube with an outer
+CC       diameter of 25 nm and an inner diameter of 15 nM. Alpha-beta
+CC       heterodimers associate head-to-tail to form protofilaments running
+CC       lengthwise along the microtubule wall with the beta-tubulin subunit
+CC       facing the microtubule plus end conferring a structural polarity.
+CC       Microtubules usually have 13 protofilaments but different protofilament
+CC       numbers can be found in some organisms and specialized cells. Interacts
+CC       with PIFO (PubMed:20643351). Interacts with DIAPH1 (PubMed:23325789).
+CC       Interacts with MX1 (By similarity). May interact with RNABP10 (By
+CC       similarity). Interacts with CFAP157 (By similarity).
+CC       {ECO:0000250|UniProtKB:P69893, ECO:0000250|UniProtKB:P99024,
+CC       ECO:0000269|PubMed:20643351, ECO:0000269|PubMed:23325789,
+CC       ECO:0000269|PubMed:26637975}.
+CC   -!- INTERACTION:
+CC       Q8AZK7:EBNA-LP (xeno); NbExp=3; IntAct=EBI-350864, EBI-1185167;
+CC       P05412:JUN; NbExp=3; IntAct=EBI-350864, EBI-852823;
+CC       Q5S007:LRRK2; NbExp=6; IntAct=EBI-350864, EBI-5323863;
+CC       Q9BSI4:TINF2; NbExp=2; IntAct=EBI-350864, EBI-717399;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton
+CC       {ECO:0000269|PubMed:26637975}.
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed with highest levels in
+CC       spleen, thymus and immature brain. {ECO:0000269|PubMed:20191564}.
+CC   -!- DOMAIN: The highly acidic C-terminal region may bind cations such as
+CC       calcium.
+CC   -!- PTM: Some glutamate residues at the C-terminus are polyglutamylated,
+CC       resulting in polyglutamate chains on the gamma-carboxyl group
+CC       (PubMed:26875866). Polyglutamylation plays a key role in microtubule
+CC       severing by spastin (SPAST). SPAST preferentially recognizes and acts
+CC       on microtubules decorated with short polyglutamate tails: severing
+CC       activity by SPAST increases as the number of glutamates per tubulin
+CC       rises from one to eight, but decreases beyond this glutamylation
+CC       threshold (PubMed:26875866). {ECO:0000269|PubMed:26875866}.
+CC   -!- PTM: Some glutamate residues at the C-terminus are monoglycylated but
+CC       not polyglycylated due to the absence of functional TTLL10 in human.
+CC       Monoglycylation is mainly limited to tubulin incorporated into axonemes
+CC       (cilia and flagella). Both polyglutamylation and monoglycylation can
+CC       coexist on the same protein on adjacent residues, and lowering
+CC       glycylation levels increases polyglutamylation, and reciprocally. The
+CC       precise function of monoglycylation is still unclear (Probable).
+CC       {ECO:0000305|PubMed:19524510}.
+CC   -!- PTM: Phosphorylated on Ser-172 by CDK1 during the cell cycle, from
+CC       metaphase to telophase, but not in interphase. This phosphorylation
+CC       inhibits tubulin incorporation into microtubules.
+CC       {ECO:0000269|PubMed:16371510}.
+CC   -!- DISEASE: Cortical dysplasia, complex, with other brain malformations 6
+CC       (CDCBM6) [MIM:615771]: A disorder of aberrant neuronal migration and
+CC       disturbed axonal guidance. Affected individuals have microcephaly,
+CC       ataxia, and severe delayed psychomotor development. Brain imaging shows
+CC       variable malformations of cortical development, including white matter
+CC       streaks, dysmorphic basal ganglia, corpus callosum abnormalities,
+CC       brainstem and cerebellar hypoplasia, cortical dysplasia,
+CC       polymicrogyria. {ECO:0000269|PubMed:23246003}. Note=The disease is
+CC       caused by mutations affecting the gene represented in this entry.
+CC   -!- DISEASE: Skin creases, congenital symmetric circumferential, 1 (CSCSC1)
+CC       [MIM:156610]: An autosomal dominant disease characterized by multiple,
+CC       symmetric, circumferential rings of folded skin, affecting primarily
+CC       the limbs. Affected individuals also exhibit intellectual disability,
+CC       cleft palate, and dysmorphic features. {ECO:0000269|PubMed:26637975}.
+CC       Note=The disease is caused by mutations affecting the gene represented
+CC       in this entry.
+CC   -!- SIMILARITY: Belongs to the tubulin family. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Wikipedia; Note=Tubulin entry;
+CC       URL="https://en.wikipedia.org/wiki/Tubulin";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J00314; AAB59507.1; -; Genomic_DNA.
+DR   EMBL; AF141349; AAD33873.1; -; mRNA.
+DR   EMBL; AF070561; AAC28642.1; -; mRNA.
+DR   EMBL; AF070593; AAC28650.1; -; mRNA.
+DR   EMBL; AF070600; AAC28654.1; -; mRNA.
+DR   EMBL; BA000025; BAB63321.1; -; Genomic_DNA.
+DR   EMBL; AB088100; BAC54932.1; -; Genomic_DNA.
+DR   EMBL; AB062393; BAB93480.1; -; mRNA.
+DR   EMBL; BC001938; AAH01938.1; -; mRNA.
+DR   EMBL; BC002347; AAH02347.1; -; mRNA.
+DR   EMBL; BC005838; AAH05838.1; -; mRNA.
+DR   EMBL; BC007605; AAH07605.1; -; mRNA.
+DR   EMBL; BC013374; AAH13374.1; -; mRNA.
+DR   EMBL; BC019924; AAH19924.1; -; mRNA.
+DR   EMBL; BC020946; AAH20946.1; -; mRNA.
+DR   EMBL; BC021909; AAH21909.1; -; mRNA.
+DR   EMBL; BC070326; AAH70326.1; -; mRNA.
+DR   CCDS; CCDS4687.1; -.
+DR   PIR; A26561; A26561.
+DR   RefSeq; NP_001280141.1; NM_001293212.1.
+DR   RefSeq; NP_001280142.1; NM_001293213.1.
+DR   RefSeq; NP_001280143.1; NM_001293214.1.
+DR   RefSeq; NP_001280144.1; NM_001293215.1.
+DR   RefSeq; NP_001280145.1; NM_001293216.1.
+DR   RefSeq; NP_821133.1; NM_178014.3.
+DR   PDB; 3QNZ; X-ray; 2.20 A; C=429-438.
+DR   PDB; 3QO0; X-ray; 2.30 A; C=422-441.
+DR   PDB; 5N5N; EM; 4.00 A; A/B/C/D/E/F=1-426.
+DR   PDB; 6I2I; EM; 3.60 A; B=1-444.
+DR   PDB; 6QUS; EM; 3.70 A; S/U=1-444.
+DR   PDB; 6QUY; EM; 3.80 A; G/H=1-444.
+DR   PDB; 6QVJ; EM; 3.80 A; S/U=1-444.
+DR   PDBsum; 3QNZ; -.
+DR   PDBsum; 3QO0; -.
+DR   PDBsum; 5N5N; -.
+DR   PDBsum; 6I2I; -.
+DR   PDBsum; 6QUS; -.
+DR   PDBsum; 6QUY; -.
+DR   PDBsum; 6QVJ; -.
+DR   SMR; P07437; -.
+DR   BioGrid; 128444; 349.
+DR   CORUM; P07437; -.
+DR   DIP; DIP-32772N; -.
+DR   IntAct; P07437; 147.
+DR   MINT; P07437; -.
+DR   STRING; 9606.ENSP00000339001; -.
+DR   ChEMBL; CHEMBL5444; -.
+DR   DrugBank; DB11638; Artenimol.
+DR   DrugBank; DB05284; CA4P.
+DR   DrugBank; DB01394; Colchicine.
+DR   DrugBank; DB09130; Copper.
+DR   DrugBank; DB05147; CYT997.
+DR   DrugBank; DB11731; Depatuxizumab mafodotin.
+DR   DrugBank; DB01873; Epothilone D.
+DR   DrugBank; DB12334; Milataxel.
+DR   DrugBank; DB03010; Patupilone.
+DR   DrugBank; DB01179; Podofilox.
+DR   DrugBank; DB00570; Vinblastine.
+DR   DrugBank; DB00541; Vincristine.
+DR   DrugBank; DB11641; Vinflunine.
+DR   DrugBank; DB00361; Vinorelbine.
+DR   DrugBank; DB06042; ZEN-012.
+DR   DrugCentral; P07437; -.
+DR   GuidetoPHARMACOLOGY; 2640; -.
+DR   iPTMnet; P07437; -.
+DR   PhosphoSitePlus; P07437; -.
+DR   SwissPalm; P07437; -.
+DR   BioMuta; TUBB; -.
+DR   DMDM; 56757569; -.
+DR   OGP; P07437; -.
+DR   REPRODUCTION-2DPAGE; P07437; -.
+DR   SWISS-2DPAGE; P07437; -.
+DR   UCD-2DPAGE; P07437; -.
+DR   EPD; P07437; -.
+DR   jPOST; P07437; -.
+DR   MassIVE; P07437; -.
+DR   PaxDb; P07437; -.
+DR   PeptideAtlas; P07437; -.
+DR   PRIDE; P07437; -.
+DR   ProteomicsDB; 52002; -.
+DR   TopDownProteomics; P07437; -.
+DR   ABCD; P07437; -.
+DR   Ensembl; ENST00000327892; ENSP00000339001; ENSG00000196230.
+DR   Ensembl; ENST00000383564; ENSP00000373058; ENSG00000183311.
+DR   Ensembl; ENST00000419792; ENSP00000401317; ENSG00000235067.
+DR   Ensembl; ENST00000421473; ENSP00000399155; ENSG00000224156.
+DR   Ensembl; ENST00000422650; ENSP00000400663; ENSG00000229684.
+DR   Ensembl; ENST00000422674; ENSP00000406811; ENSG00000227739.
+DR   Ensembl; ENST00000432462; ENSP00000410829; ENSG00000232421.
+DR   Ensembl; ENST00000436628; ENSP00000410071; ENSG00000232575.
+DR   GeneID; 203068; -.
+DR   KEGG; hsa:203068; -.
+DR   CTD; 203068; -.
+DR   DisGeNET; 203068; -.
+DR   GeneCards; TUBB; -.
+DR   GeneReviews; TUBB; -.
+DR   HGNC; HGNC:20778; TUBB.
+DR   HPA; CAB005417; -.
+DR   HPA; CAB012406; -.
+DR   HPA; HPA043640; -.
+DR   HPA; HPA046280; -.
+DR   MalaCards; TUBB; -.
+DR   MIM; 156610; phenotype.
+DR   MIM; 191130; gene.
+DR   MIM; 615771; phenotype.
+DR   neXtProt; NX_P07437; -.
+DR   OpenTargets; ENSG00000196230; -.
+DR   Orphanet; 2505; Multiple benign circumferential skin creases on limbs.
+DR   PharmGKB; PA358; -.
+DR   eggNOG; KOG1375; Eukaryota.
+DR   eggNOG; COG5023; LUCA.
+DR   GeneTree; ENSGT00940000154370; -.
+DR   HOGENOM; CLU_015718_1_1_1; -.
+DR   InParanoid; P07437; -.
+DR   KO; K07375; -.
+DR   OMA; ILLVCMF; -.
+DR   OrthoDB; 962471at2759; -.
+DR   PhylomeDB; P07437; -.
+DR   TreeFam; TF300298; -.
+DR   Reactome; R-HSA-2565942; Regulation of PLK1 Activity at G2/M Transition.
+DR   Reactome; R-HSA-380259; Loss of Nlp from mitotic centrosomes.
+DR   Reactome; R-HSA-380270; Recruitment of mitotic centrosome proteins and complexes.
+DR   Reactome; R-HSA-380284; Loss of proteins required for interphase microtubule organization from the centrosome.
+DR   Reactome; R-HSA-380320; Recruitment of NuMA to mitotic centrosomes.
+DR   Reactome; R-HSA-5620912; Anchoring of the basal body to the plasma membrane.
+DR   Reactome; R-HSA-6798695; Neutrophil degranulation.
+DR   Reactome; R-HSA-8854518; AURKA Activation by TPX2.
+DR   SIGNOR; P07437; -.
+DR   ChiTaRS; TUBB; human.
+DR   GeneWiki; TUBB; -.
+DR   GenomeRNAi; 203068; -.
+DR   Pharos; P07437; Tclin.
+DR   PRO; PR:P07437; -.
+DR   Proteomes; UP000005640; Chromosome 6.
+DR   RNAct; P07437; protein.
+DR   Bgee; ENSG00000196230; Expressed in cerebral cortex and 233 other tissues.
+DR   ExpressionAtlas; P07437; baseline and differential.
+DR   Genevisible; P07437; HS.
+DR   GO; GO:0035578; C:azurophil granule lumen; TAS:Reactome.
+DR   GO; GO:0044297; C:cell body; IDA:DFLAT.
+DR   GO; GO:0005737; C:cytoplasm; IDA:CAFA.
+DR   GO; GO:0036464; C:cytoplasmic ribonucleoprotein granule; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0005856; C:cytoskeleton; TAS:UniProtKB.
+DR   GO; GO:0070062; C:extracellular exosome; HDA:UniProtKB.
+DR   GO; GO:0005576; C:extracellular region; TAS:Reactome.
+DR   GO; GO:0045121; C:membrane raft; IEA:Ensembl.
+DR   GO; GO:0005874; C:microtubule; IDA:UniProtKB.
+DR   GO; GO:0005641; C:nuclear envelope lumen; IDA:DFLAT.
+DR   GO; GO:0005634; C:nucleus; HDA:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; IEA:Ensembl.
+DR   GO; GO:0005525; F:GTP binding; IBA:GO_Central.
+DR   GO; GO:0032794; F:GTPase activating protein binding; IEA:Ensembl.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0042288; F:MHC class I protein binding; IDA:UniProtKB.
+DR   GO; GO:0019904; F:protein domain specific binding; IEA:Ensembl.
+DR   GO; GO:0044877; F:protein-containing complex binding; IEA:Ensembl.
+DR   GO; GO:0005200; F:structural constituent of cytoskeleton; IBA:GO_Central.
+DR   GO; GO:0005198; F:structural molecule activity; TAS:BHF-UCL.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; IPI:ParkinsonsUK-UCL.
+DR   GO; GO:0051301; P:cell division; TAS:BHF-UCL.
+DR   GO; GO:0009987; P:cellular process; IDA:DFLAT.
+DR   GO; GO:0097711; P:ciliary basal body-plasma membrane docking; TAS:Reactome.
+DR   GO; GO:0030705; P:cytoskeleton-dependent intracellular transport; TAS:BHF-UCL.
+DR   GO; GO:0000086; P:G2/M transition of mitotic cell cycle; TAS:Reactome.
+DR   GO; GO:0000226; P:microtubule cytoskeleton organization; IBA:GO_Central.
+DR   GO; GO:0007017; P:microtubule-based process; IBA:GO_Central.
+DR   GO; GO:0000278; P:mitotic cell cycle; IBA:GO_Central.
+DR   GO; GO:0042267; P:natural killer cell mediated cytotoxicity; NAS:UniProtKB.
+DR   GO; GO:0043312; P:neutrophil degranulation; TAS:Reactome.
+DR   GO; GO:0010389; P:regulation of G2/M transition of mitotic cell cycle; TAS:Reactome.
+DR   GO; GO:0050807; P:regulation of synapse organization; IEA:Ensembl.
+DR   GO; GO:0051225; P:spindle assembly; IEA:Ensembl.
+DR   Gene3D; 1.10.287.600; -; 1.
+DR   Gene3D; 3.30.1330.20; -; 1.
+DR   Gene3D; 3.40.50.1440; -; 1.
+DR   InterPro; IPR013838; Beta-tubulin_BS.
+DR   InterPro; IPR002453; Beta_tubulin.
+DR   InterPro; IPR008280; Tub_FtsZ_C.
+DR   InterPro; IPR000217; Tubulin.
+DR   InterPro; IPR018316; Tubulin/FtsZ_2-layer-sand-dom.
+DR   InterPro; IPR037103; Tubulin/FtsZ_C_sf.
+DR   InterPro; IPR036525; Tubulin/FtsZ_GTPase_sf.
+DR   InterPro; IPR023123; Tubulin_C.
+DR   InterPro; IPR017975; Tubulin_CS.
+DR   InterPro; IPR003008; Tubulin_FtsZ_GTPase.
+DR   PANTHER; PTHR11588; PTHR11588; 1.
+DR   Pfam; PF00091; Tubulin; 1.
+DR   Pfam; PF03953; Tubulin_C; 1.
+DR   PRINTS; PR01163; BETATUBULIN.
+DR   PRINTS; PR01161; TUBULIN.
+DR   SMART; SM00864; Tubulin; 1.
+DR   SMART; SM00865; Tubulin_C; 1.
+DR   SUPFAM; SSF52490; SSF52490; 1.
+DR   SUPFAM; SSF55307; SSF55307; 1.
+DR   PROSITE; PS00227; TUBULIN; 1.
+DR   PROSITE; PS00228; TUBULIN_B_AUTOREG; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Cytoplasm; Cytoskeleton;
+KW   Direct protein sequencing; Disease mutation; GTP-binding; Isopeptide bond;
+KW   Methylation; Microtubule; Nucleotide-binding; Phosphoprotein;
+KW   Reference proteome; Ubl conjugation.
+FT   CHAIN           1..444
+FT                   /note="Tubulin beta chain"
+FT                   /id="PRO_0000048243"
+FT   NP_BIND         140..146
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         40
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P99024"
+FT   MOD_RES         55
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000244|PubMed:23186163"
+FT   MOD_RES         58
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000244|PubMed:19608861"
+FT   MOD_RES         58
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P99024"
+FT   MOD_RES         172
+FT                   /note="Phosphoserine; by CDK1"
+FT                   /evidence="ECO:0000269|PubMed:16371510"
+FT   MOD_RES         285
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000244|PubMed:23186163"
+FT   MOD_RES         290
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000244|PubMed:23186163"
+FT   MOD_RES         318
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000269|Ref.9"
+FT   MOD_RES         438
+FT                   /note="5-glutamyl polyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2T9S0"
+FT   CROSSLNK        58
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin); alternate"
+FT   CROSSLNK        324
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT   VARIANT         15
+FT                   /note="Q -> K (in CSCSC1; disrupts heterodimer assembly and
+FT                   microtubule dynamics; dbSNP:rs864321676)"
+FT                   /evidence="ECO:0000269|PubMed:26637975"
+FT                   /id="VAR_076543"
+FT   VARIANT         222
+FT                   /note="Y -> F (in CSCSC1; disrupts heterodimer assembly and
+FT                   microtubule dynamics; dbSNP:rs864321677)"
+FT                   /evidence="ECO:0000269|PubMed:26637975"
+FT                   /id="VAR_076544"
+FT   VARIANT         299
+FT                   /note="M -> V (in CDCBM6; decreases the ability of the
+FT                   protein to assemble into tubulin heterodimers;
+FT                   dbSNP:rs587777355)"
+FT                   /evidence="ECO:0000269|PubMed:23246003"
+FT                   /id="VAR_071763"
+FT   VARIANT         353
+FT                   /note="V -> I (in CDCBM6; does not affect the ability of
+FT                   the mutant polypeptides to assemble into heterodimers and
+FT                   incorporate into microtubules; dbSNP:rs587777356)"
+FT                   /evidence="ECO:0000269|PubMed:23246003"
+FT                   /id="VAR_071764"
+FT   VARIANT         401
+FT                   /note="E -> K (in CDCBM6; arrests the assembly pathway of
+FT                   alpha/beta-tubulin; the mutant protein is unable to
+FT                   coassemble into a tubulin heterodimer but is instead
+FT                   distributed throughout the cytoplasm; dbSNP:rs587777357)"
+FT                   /evidence="ECO:0000269|PubMed:23246003"
+FT                   /id="VAR_071765"
+FT   CONFLICT        216
+FT                   /note="K -> R (in Ref. 1; no nucleotide entry and 2;
+FT                   AAB59507)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        231
+FT                   /note="A -> G (in Ref. 1; no nucleotide entry and 2;
+FT                   AAB59507)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        234..235
+FT                   /note="SG -> EC (in Ref. 1; no nucleotide entry and 2;
+FT                   AAB59507)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        288
+FT                   /note="E -> D (in Ref. 1; no nucleotide entry and 2;
+FT                   AAB59507)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        298
+FT                   /note="N -> D (in Ref. 8; AAH20946)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   444 AA;  49671 MW;  1E6CD0A36773A103 CRC64;
+     MREIVHIQAG QCGNQIGAKF WEVISDEHGI DPTGTYHGDS DLQLDRISVY YNEATGGKYV
+     PRAILVDLEP GTMDSVRSGP FGQIFRPDNF VFGQSGAGNN WAKGHYTEGA ELVDSVLDVV
+     RKEAESCDCL QGFQLTHSLG GGTGSGMGTL LISKIREEYP DRIMNTFSVV PSPKVSDTVV
+     EPYNATLSVH QLVENTDETY CIDNEALYDI CFRTLKLTTP TYGDLNHLVS ATMSGVTTCL
+     RFPGQLNADL RKLAVNMVPF PRLHFFMPGF APLTSRGSQQ YRALTVPELT QQVFDAKNMM
+     AACDPRHGRY LTVAAVFRGR MSMKEVDEQM LNVQNKNSSY FVEWIPNNVK TAVCDIPPRG
+     LKMAVTFIGN STAIQELFKR ISEQFTAMFR RKAFLHWYTG EGMDEMEFTE AESNMNDLVS
+     EYQQYQDATA EEEEDFGEEA EEEA
+//

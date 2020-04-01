@@ -3,22 +3,22 @@ import os
 import unittest
 
 import load_dat
-import fasta
-from main import get_modified_residue_numbers
+from std_functions import read_record
+from uniprot import get_modified_residue_numbers
 
 class TestGetModifiedResidueNumbers(unittest.TestCase):
-    
-    FASTA_PATH = os.path.dirname(os.path.abspath(__file__)) + '/../../testData/sequences.fasta'
 
     def test_std_get_modified_residue_number(self):
-        fasta_db = fasta.FastaFile()
-        fasta_db.read(self.FASTA_PATH)
+
+        test_count = 0
         for i, row in load_dat.dat_std.iterrows():
-            if fasta_db.id_exists(row['ID']):
-                protein_seq = fasta_db.get_sequence(row['ID'])
-                mod_locs = get_modified_residue_numbers(row['seq'], protein_seq)
-                mods = '|'.join(['{}{}'.format(protein_seq[x], x + 1) for x in mod_locs])
+            record = read_record(row['ID'])
+            if record is not None:
+                protein_seq = record.sequence
+                mods = get_modified_residue_numbers(row['seq'], protein_seq)
                 self.assertEqual(row['modified_residue'], mods)
+                test_count += 1
+        self.assertNotEqual(test_count, 0)
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

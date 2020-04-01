@@ -1,13 +1,12 @@
 
-from collections import Counter
 import sys
 import os
+from collections import Counter
+import pandas as pd
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../')
 
-from dataframe import read_tsv
-
-dat_std = read_tsv(os.path.dirname(os.path.abspath(__file__)) + '/data/std_output.tsv')
+dat_std = pd.read_csv(os.path.dirname(os.path.abspath(__file__)) + '/data/std_output.tsv', sep='\t')
 
 atom_counts = {'A': Counter({'C': 3,
                              'H': 5,

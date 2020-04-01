@@ -1,40 +1,20 @@
 
-import sys
+import os
 import argparse
 import re
+import pandas as pd
 
-from fasta import FastaFile
-from dataframe import read_tsv, DataFrame
-
-import sequences
+import uniprot
 import molecular_formula
-
-
-def read_input(fname):
-    '''
-    Read input file.'
-
-    Parameters
-    ----------
-    fname: str
-        Path to input file.
-
-    Returns
-    -------
-    dat: DataFrame
-        Data in fanme as a DataFrame.
-    '''
-
-    return read_tsv(fname)
 
 
 # def main():
 #     '''
 #     Main method.
-# 
+#
 #     This is the function which will be executed first when you call the program form the command line.
 #     '''
-# 
+#
 #     # Load and parse command line arguments
 #     parser = argparse.ArgumentParser(prog=__file__,
 #                                      description='Read a .tsv file containing peptides and UniProt '
@@ -47,16 +27,16 @@ def read_input(fname):
 #     args = parser.parse_args()
 
 # Hard coded file paths for debuging
-INPUT_FILE_PATH = 'data/input_peptides.tsv'
-ATOM_COUNT_TABLE_PATH = 'data/residue_atoms.txt'
-FASTA_FILE_PATH = 'data/sequences.fasta'
-OUTPUT_FILE_PATH = 'data/output_peptide.tsv'
+BASE_DATA_PATH = os.path.abspath(os.path.dirname(__file__) + '/../data')
+INPUT_FILE_PATH = BASE_DATA_PATH + '/input_peptides.tsv'
+ATOM_COUNT_TABLE_PATH = BASE_DATA_PATH + '/residue_atoms.txt'
+OUTPUT_FILE_PATH = BASE_DATA_PATH + '/output_peptide.tsv'
 
-# read input file
-# (Call read_dat and set the output to a variable named 'dat')
-dat = read_input(INPUT_FILE_PATH)
+# read input file at INPUT_FILE_PATH
+# (Call pd.read_csv and set the output to a variable named 'dat')
+dat = pd.read_csv(INPUT_FILE_PATH, sep='\t')
 
-# Load atom count table and save it to a variable.
+# Load atom count table from ATOM_COUNT_TABLE_PATH and save it to a variable.
 # (Call molecular_formula.read_atom_count_table)
 atom_counts = molecular_formula.read_atom_count_table(ATOM_COUNT_TABLE_PATH)
 
@@ -74,35 +54,47 @@ dat['formula'] = [molecular_formula.format_formula(f) for f in formulas]
 # to a new column in dat named 'mass'.)
 dat['mass'] = [molecular_formula.calc_mass(f) for f in formulas]
 
-# Find modification sites in parent protein
-# load .fasta file
-fasta_db = FastaFile()
-fasta_db.read(FASTA_FILE_PATH)
+# Retreive uniprot records for all potein IDs
+# (Call uniprot.get_unipror_record for each protein ID and save the results to a dict)
+records = {uniprot_id: uniprot.get_unipror_record(uniprot_id) for uniprot_id in dat['ID']}
 
 # Iterate through dat
 mod_locs = list()
+go_fxn = list()
+locations = list()
 for i, row in dat.iterrows():
-    # Check if the protein sequence exists in the fasta file.
-    if fasta_db.id_exists(row['ID']):
-        # Get the protein sequence for the current row from the .fasta file
-        protein_seq = fasta_db.get_sequence(row['ID'])
+    # Check if there is a uniprot record for the current ID.
+    if records[row['ID']] is not None:
+        # Get the protein sequence for the current row from the Record
+        protein_seq = records[row['ID']].sequence
 
         # Get the index locations of the modification(s) in the parent pritein sequence.
-        # (Call sequence.get_modified_residue_numbers)
-        mods = sequences.get_modified_residue_numbers(row['seq'], protein_seq)
+        # (Call uniprot.get_modified_residue_numbers)
+        mod_locs.append(uniprot.get_modified_residue_numbers(row['seq'], protein_seq))
 
-        # Format the modification indecies as <residue><number>|...
-        # Example: C53|C56 or C73
-        mod_locs.append('|'.join(['{}{}'.format(protein_seq[x], x + 1) for x in mods]))
+
+        # Get the GO terms for protein function
+        # (Call uniprot.get_go_fxn)
+        go_fxn.append(uniprot.get_go_fxn(records[row['ID']].cross_references))
+
+        # Get the subcelluar location of the parent protein
+        # The subcelluar location are stored in the Record.comments member
+        locations.append(uniprot.get_protein_location(records[row['ID']].comments))
 
     else:
-        mod_locs.append('PROTEIN_SEQ_NOT_FOUND')
+        mod_locs.append('UNIPROT_RECORD_NOT_FOUND')
+        locations.append('-')
+        go_fxn.append('-')
 
 # Add a column to dat named 'modified_residues'
 dat['modified_residues'] = mod_locs
+# Add a column to dat named 'go_fxn'
+dat['go_fxn'] = go_fxn
+# Add a column to dat named 'subcelluar_loc'
+dat['subcelluar_loc'] = locations
 
-# Write dat to file (Call DataFrame.to_tsv)
-dat.to_tsv('data/output_peptide.tsv')
+# Write dat to OUTPUT_FILE_PATH (Call DataFrame.to_tsv)
+dat.to_csv(OUTPUT_FILE_PATH, sep='\t', index=False)
 
 # if __name__ == '__main__':
 #     main()

@@ -26,7 +26,7 @@ import molecular_formula
 #                         help='Path to input file. Should be tsv with two columns; "ID" and "seq".')
 #     args = parser.parse_args()
 
-# Hard coded file paths for debuging
+# Hard coded file paths for debugging
 BASE_DATA_PATH = os.path.abspath(os.path.dirname(__file__) + '/../data')
 INPUT_FILE_PATH = BASE_DATA_PATH + '/input_peptides.tsv'
 ATOM_COUNT_TABLE_PATH = BASE_DATA_PATH + '/residue_atoms.txt'
@@ -54,7 +54,7 @@ dat['formula'] = [molecular_formula.format_formula(f) for f in formulas]
 # to a new column in dat named 'mass'.)
 dat['mass'] = [molecular_formula.calc_mass(f) for f in formulas]
 
-# Retreive uniprot records for all potein IDs
+# Retrieve uniprot records for all protein IDs
 # (Call uniprot.get_unipror_record for each protein ID and save the results to a dict)
 records = {uniprot_id: uniprot.get_unipror_record(uniprot_id) for uniprot_id in dat['ID']}
 
@@ -68,7 +68,7 @@ for i, row in dat.iterrows():
         # Get the protein sequence for the current row from the Record
         protein_seq = records[row['ID']].sequence
 
-        # Get the index locations of the modification(s) in the parent pritein sequence.
+        # Get the index locations of the modification(s) in the parent protein sequence.
         # (Call uniprot.get_modified_residue_numbers)
         mod_locs.append(uniprot.get_modified_residue_numbers(row['seq'], protein_seq))
 
@@ -77,8 +77,8 @@ for i, row in dat.iterrows():
         # (Call uniprot.get_go_fxn)
         go_fxn.append(uniprot.get_go_fxn(records[row['ID']].cross_references))
 
-        # Get the subcelluar location of the parent protein
-        # The subcelluar location are stored in the Record.comments member
+        # Get the subcellular location of the parent protein
+        # The subcellular location are stored in the Record.comments member
         locations.append(uniprot.get_protein_location(records[row['ID']].comments))
 
     else:

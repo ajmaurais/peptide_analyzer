@@ -42,7 +42,7 @@ def read_atom_count_table(fname):
     atom_counts = dict()
     for i, row in residue_atoms.iterrows():
 
-        # for each row initalize a Counter
+        # for each row initialize a Counter
         atom_counts[row['residue']] = Counter()
 
         # then add the atom counts for the current residue
@@ -69,7 +69,7 @@ def calc_formula(sequence, residue_atoms):
         Atom counts for the whole peptide.
     '''
 
-    # Initalize empty Counter container to add residue formulas to
+    # Initialize empty Counter container to add residue formulas to
     formula = Counter()
 
     # Iterate through sequence and update formula
@@ -98,7 +98,7 @@ def format_formula(formula_counter):
         String representation of formula.
     '''
 
-    # Initalize string to return
+    # Initialize string to return
     pretty_formula = ''
 
     # Iterate through items in formula_counter and append string to pretty_formula
@@ -111,7 +111,7 @@ def format_formula(formula_counter):
 
 def calc_mass(formula_counter):
     '''
-    Calculate peptide mass from foumula counter.
+    Calculate peptide mass from formula counter.
 
     Parameters
     ----------
@@ -121,10 +121,10 @@ def calc_mass(formula_counter):
     Returns
     -------
     mass: float
-        Peptide monoisotpoic mass
+        Peptide monoisotopic mass
     '''
 
-    # Initalize mass
+    # Initialize mass
     mass = float()
 
     # Iterate through items in formula_counter and add their masses to mass.

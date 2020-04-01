@@ -5,9 +5,9 @@ from biopython_lite.Bio import ExPASy, SwissProt
 
 def get_unipror_record(uniprot_id):
     '''
-    Retreive a uniprot record.
+    Retrieve a uniprot record.
 
-    Paramaters
+    Parameters
     ----------
     uniprot_id: str
         A valid uniprot ID.
@@ -27,7 +27,7 @@ def get_unipror_record(uniprot_id):
     except (HTTPError, ValueError) as e:
         return None
 
-    # Call SwissProt.read to parse the text handel from ExPASy.get_sprot_raw and return the Record
+    # Call SwissProt.read to parse the text handle from ExPASy.get_sprot_raw and return the Record
     record = SwissProt.read(handle)
     return record
 
@@ -73,7 +73,7 @@ def get_go_fxn(cross_references):
     Get the GO terms for protein function from the cross_references
     list from a SwissProt.Record.
 
-    Paramaters
+    Parameters
     ----------
     cross_references: list of tuples
         cross_references list.
@@ -84,7 +84,7 @@ def get_go_fxn(cross_references):
         GO terms concatenated into a single string.
     '''
 
-    # cross refrence list elements with GO terms should start with 'GO'
+    # cross reference list elements with GO terms should start with 'GO'
     # GO terms for function start with 'F:'
 
     # Iterate through cross_references list elements
@@ -96,7 +96,7 @@ def get_go_fxn(cross_references):
             if ref[2][0] == 'F':
                 terms.append(ref[2][2:])
 
-    # Concatenate terms into a single string seperated by commas
+    # Concatenate terms into a single string separated by commas
     return ', '.join(terms)
 
 
@@ -104,7 +104,7 @@ def remove_braces(s, open_brace='{', close_brace='}'):
     '''
     Remove substring(s) inside braces from string.
 
-    Paramaters
+    Parameters
     ----------
     s: str
         String containing braces.
@@ -121,10 +121,10 @@ def remove_braces(s, open_brace='{', close_brace='}'):
     Raises
     ------
     ValueError:
-        If braces are not balenced.
+        If braces are not balanced.
     '''
 
-    # Start with the inner most brace, and remove them recursivally untill there are none left.
+    # Start with the inner most brace, and remove them recursively until there are none left.
     open_brace_index = s.rfind(open_brace)
     close_brace_index = s.find(close_brace, open_brace_index)
     if open_brace_index == -1:
@@ -141,7 +141,7 @@ def get_protein_location(comments_list):
     '''
     Parse protein subcellular locations from Record comments.
 
-    Paramaters
+    Parameters
     ----------
     comments_list: list
         List of comments from Record.
@@ -149,7 +149,7 @@ def get_protein_location(comments_list):
     Returns
     -------
     pretty_locations: str
-        Nicely formated, comma seperated list of locations.
+        Nicely formatted, comma separated list of locations.
         If annotations are found, returns 'no_annotated_location'.
     '''
 
@@ -169,19 +169,19 @@ def get_protein_location(comments_list):
     if note_index != -1:
         locations = locations[0:note_index]
 
-    # Rmove everthing in curly braces
+    # Remove everything in curly braces
     # (call remove_braces)
     locations = remove_braces(locations)
 
-    # Rmove everthing in square brackets (isoform specifers)
+    # Remove everything in square brackets (isoform specifiers)
     # (call remove_braces)
     locations = remove_braces(locations, open_brace='[', close_brace=']')
 
-    # split by deliminators ';.:,'
+    # split by delimiters ';.:,'
     # (call re.split with the regex r'\s?[;.:,]\s?')
     locations = re.split(r'\s?[;.:,]\s?', locations)
 
-    # convert to lowercase, remove duplicates, and concatenate into a single string seperated by ';'
+    # convert to lowercase, remove duplicates, and concatenate into a single string separated by ';'
     locations = ', '.join(set(l.strip().lower() for l in locations if l.strip() != ''))
 
     return locations

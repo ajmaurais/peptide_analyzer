@@ -1,0 +1,509 @@
+ID   EF1G_HUMAN              Reviewed;         437 AA.
+AC   P26641; B4DTG2; Q6PJ62; Q6PK31; Q96CU2; Q9P196;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   26-FEB-2020, entry version 220.
+DE   RecName: Full=Elongation factor 1-gamma;
+DE            Short=EF-1-gamma;
+DE   AltName: Full=eEF-1B gamma;
+GN   Name=EEF1G; Synonyms=EF1G; ORFNames=PRO1608;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   PubMed=1461723; DOI=10.1093/nar/20.22.5907;
+RA   Sanders J., Maassen J.A., Moeller W.;
+RT   "Elongation factor-1 messenger-RNA levels in cultured cells are high
+RT   compared to tissue and are not drastically affected further by oncogenic
+RT   transformation.";
+RL   Nucleic Acids Res. 20:5907-5910(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   PubMed=1598220; DOI=10.1093/nar/20.10.2598;
+RA   Kumabe T., Schma Y., Yamamoto T.;
+RT   "Human cDNAs encoding elongation factor 1 gamma and the ribosomal protein
+RT   L19.";
+RL   Nucleic Acids Res. 20:2598-2598(1992).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Placenta;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A., Sudo H.,
+RA   Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M., Takahashi M.,
+RA   Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y., Abe K., Kamihara K.,
+RA   Katsuta N., Sato K., Tanikawa M., Yamazaki M., Ninomiya K., Ishibashi T.,
+RA   Yamashita H., Murakawa K., Fujimori K., Tanai H., Kimata M., Watanabe M.,
+RA   Hiraoka S., Chiba Y., Ishida S., Ono Y., Takiguchi S., Watanabe S.,
+RA   Yosida M., Hotuta T., Kusano J., Kanehori K., Takahashi-Fujii A., Hara H.,
+RA   Tanase T.-O., Nomura Y., Togiya S., Komai F., Hara R., Takeuchi K.,
+RA   Arita M., Imose N., Musashino K., Yuuki H., Oshima A., Sasaki N.,
+RA   Aotsuka S., Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y., Fujimori Y.,
+RA   Komiyama M., Tashiro H., Tanigami A., Fujiwara T., Ono T., Yamada K.,
+RA   Fujii Y., Ozaki K., Hirao M., Ohmori Y., Kawabata A., Hikiji T.,
+RA   Kobatake N., Inagaki H., Ikema Y., Okamoto S., Okitani R., Kawakami T.,
+RA   Noguchi S., Itoh T., Shigeta K., Senba T., Matsumura K., Nakajima Y.,
+RA   Mizuno T., Morinaga M., Sasaki M., Togashi T., Oyama M., Hata H.,
+RA   Watanabe M., Komatsu T., Mizushima-Sugano J., Satoh T., Shirai Y.,
+RA   Takahashi Y., Nakagawa K., Okumura K., Nagase T., Nomura N., Kikuchi H.,
+RA   Masuho Y., Yamashita R., Nakai K., Yada T., Nakamura Y., Ohara O.,
+RA   Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16554811; DOI=10.1038/nature04632;
+RA   Taylor T.D., Noguchi H., Totoki Y., Toyoda A., Kuroki Y., Dewar K.,
+RA   Lloyd C., Itoh T., Takeda T., Kim D.-W., She X., Barlow K.F., Bloom T.,
+RA   Bruford E., Chang J.L., Cuomo C.A., Eichler E., FitzGerald M.G.,
+RA   Jaffe D.B., LaButti K., Nicol R., Park H.-S., Seaman C., Sougnez C.,
+RA   Yang X., Zimmer A.R., Zody M.C., Birren B.W., Nusbaum C., Fujiyama A.,
+RA   Hattori M., Rogers J., Lander E.S., Sakaki Y.;
+RT   "Human chromosome 11 DNA sequence and analysis including novel gene
+RT   identification.";
+RL   Nature 440:497-500(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Bone marrow, Eye, Liver, Lung, Muscle, Testis, and Uterus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 2-14.
+RC   TISSUE=Platelet;
+RX   PubMed=12665801; DOI=10.1038/nbt810;
+RA   Gevaert K., Goethals M., Martens L., Van Damme J., Staes A., Thomas G.R.,
+RA   Vandekerckhove J.;
+RT   "Exploring proteomes and analyzing protein processing by mass spectrometric
+RT   identification of sorted N-terminal peptides.";
+RL   Nat. Biotechnol. 21:566-569(2003).
+RN   [7]
+RP   PROTEIN SEQUENCE OF 2-14, CLEAVAGE OF INITIATOR METHIONINE, ACETYLATION AT
+RP   ALA-2, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=B-cell lymphoma;
+RA   Bienvenut W.V.;
+RL   Submitted (OCT-2004) to UniProtKB.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 80-437 (ISOFORM 1).
+RC   TISSUE=Pancreatic carcinoma;
+RX   PubMed=1372736; DOI=10.1097/00006676-199203000-00003;
+RA   Lew Y., Jones D.V., Mars W.M., Evans D., Byrd D., Frazier M.L.;
+RT   "Expression of elongation factor-1 gamma-related sequence in human
+RT   pancreatic cancer.";
+RL   Pancreas 7:144-152(1992).
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 121-437 (ISOFORM 1).
+RC   TISSUE=Fetal liver;
+RA   Zhang C., Yu Y., Zhang S., Wei H., Zhang Y., Zhou G., Bi J., Liu M., He F.;
+RT   "Functional prediction of the coding sequences of 79 new genes deduced by
+RT   analysis of cDNA clones from human fetal liver.";
+RL   Submitted (JAN-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [10]
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Lymphoblast;
+RX   PubMed=14654843; DOI=10.1038/nature02166;
+RA   Andersen J.S., Wilkinson C.J., Mayor T., Mortensen P., Nigg E.A., Mann M.;
+RT   "Proteomic characterization of the human centrosome by protein correlation
+RT   profiling.";
+RL   Nature 426:570-574(2003).
+RN   [11]
+RP   INDUCTION, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=16548883; DOI=10.1111/j.1462-5822.2005.00644.x;
+RA   Leong W.F., Chow V.T.;
+RT   "Transcriptomic and proteomic analyses of rhabdomyosarcoma cells reveal
+RT   differential cellular gene expression in response to enterovirus 71
+RT   infection.";
+RL   Cell. Microbiol. 8:565-580(2006).
+RN   [12]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2, CLEAVAGE OF INITIATOR
+RP   METHIONINE [LARGE SCALE ANALYSIS], AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J., Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in a
+RT   refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [13]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-147 AND LYS-434, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.C.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [14]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P., Buerckstuemmer T.,
+RA   Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [15]
+RP   MALONYLATION AT LYS-434.
+RX   PubMed=21908771; DOI=10.1074/mcp.m111.012658;
+RA   Peng C., Lu Z., Xie Z., Cheng Z., Chen Y., Tan M., Luo H., Zhang Y., He W.,
+RA   Yang K., Zwaans B.M., Tishkoff D., Ho L., Lombard D., He T.C., Dai J.,
+RA   Verdin E., Ye Y., Zhao Y.;
+RT   "The first identification of lysine malonylation substrates and its
+RT   regulatory enzyme.";
+RL   Mol. Cell. Proteomics 10:M111.012658.01-M111.012658.12(2011).
+RN   [16]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2, CLEAVAGE OF INITIATOR
+RP   METHIONINE [LARGE SCALE ANALYSIS], AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=22223895; DOI=10.1074/mcp.m111.015131;
+RA   Bienvenut W.V., Sumpton D., Martinez A., Lilla S., Espagne C., Meinnel T.,
+RA   Giglione C.;
+RT   "Comparative large-scale characterisation of plant vs. mammal proteins
+RT   reveals similar and idiosyncratic N-alpha acetylation features.";
+RL   Mol. Cell. Proteomics 11:M111.015131-M111.015131(2012).
+RN   [17]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2, CLEAVAGE OF INITIATOR
+RP   METHIONINE [LARGE SCALE ANALYSIS], AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=22814378; DOI=10.1073/pnas.1210303109;
+RA   Van Damme P., Lasa M., Polevoda B., Gazquez C., Elosegui-Artola A.,
+RA   Kim D.S., De Juan-Pardo E., Demeyer K., Hole K., Larrea E., Timmerman E.,
+RA   Prieto J., Arnesen T., Sherman F., Gevaert K., Aldabe R.;
+RT   "N-terminal acetylome analyses and functional insights of the N-terminal
+RT   acetyltransferase NatB.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 109:12449-12454(2012).
+RN   [18]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [19]
+RP   SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-253, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=25114211; DOI=10.1073/pnas.1413825111;
+RA   Impens F., Radoshevich L., Cossart P., Ribet D.;
+RT   "Mapping of SUMO sites and analysis of SUMOylation changes induced by
+RT   external stimuli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 111:12432-12437(2014).
+RN   [20]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=25944712; DOI=10.1002/pmic.201400617;
+RA   Vaca Jacome A.S., Rabilloud T., Schaeffer-Reiss C., Rompais M., Ayoub D.,
+RA   Lane L., Bairoch A., Van Dorsselaer A., Carapito C.;
+RT   "N-terminome analysis of the human mitochondrial proteome.";
+RL   Proteomics 15:2519-2524(2015).
+RN   [21]
+RP   SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-285, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=28112733; DOI=10.1038/nsmb.3366;
+RA   Hendriks I.A., Lyon D., Young C., Jensen L.J., Vertegaal A.C.,
+RA   Nielsen M.L.;
+RT   "Site-specific mapping of the human SUMO proteome reveals co-modification
+RT   with phosphorylation.";
+RL   Nat. Struct. Mol. Biol. 24:325-336(2017).
+RN   [22]
+RP   STRUCTURE BY NMR OF 276-437.
+RX   PubMed=12766415; DOI=10.1023/a:1023504611632;
+RA   Vanwetswinkel S., Kriek J., Andersen G.R., Dijk J., Siegal G.;
+RT   "1H, 15N and 13C resonance assignments of the highly conserved 19 kDa C-
+RT   terminal domain from human elongation factor 1Bgamma.";
+RL   J. Biomol. NMR 26:189-190(2003).
+CC   -!- FUNCTION: Probably plays a role in anchoring the complex to other
+CC       cellular components.
+CC   -!- SUBUNIT: EF-1 is composed of four subunits: alpha, beta, delta, and
+CC       gamma.
+CC   -!- INTERACTION:
+CC       F4ZW62:-; NbExp=3; IntAct=EBI-10177695, EBI-10177680;
+CC       P24534:EEF1B2; NbExp=6; IntAct=EBI-351467, EBI-354334;
+CC       P29692:EEF1D; NbExp=4; IntAct=EBI-351467, EBI-358607;
+CC       P29692-2:EEF1D; NbExp=3; IntAct=EBI-10177695, EBI-5280572;
+CC       Q658K8:EEF1DP3; NbExp=4; IntAct=EBI-10177695, EBI-10248874;
+CC       O94889:KLHL18; NbExp=3; IntAct=EBI-10177695, EBI-2510096;
+CC       Q04695:KRT17; NbExp=2; IntAct=EBI-351467, EBI-297873;
+CC       Q9HBL7:PLGRKT; NbExp=3; IntAct=EBI-10177695, EBI-714824;
+CC       P78332:RBM6; NbExp=3; IntAct=EBI-10177695, EBI-2692323;
+CC       Q969Q1:TRIM63; NbExp=2; IntAct=EBI-351467, EBI-5661333;
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P26641-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P26641-2; Sequence=VSP_056204;
+CC   -!- TISSUE SPECIFICITY: Highly expressed in pancreatic tumor tissue and to
+CC       a lesser extent in normal kidney, intestine, pancreas, stomach, lung,
+CC       brain, spleen and liver.
+CC   -!- INDUCTION: Down-regulated in response to enterovirus 71 (EV71)
+CC       infection. {ECO:0000269|PubMed:16548883}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X63526; CAA45089.1; -; mRNA.
+DR   EMBL; Z11531; CAA77630.1; -; mRNA.
+DR   EMBL; AK300203; BAG61974.1; -; mRNA.
+DR   EMBL; AP001363; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AP002990; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC000384; AAH00384.1; -; mRNA.
+DR   EMBL; BC006509; AAH06509.1; -; mRNA.
+DR   EMBL; BC006520; AAH06520.1; -; mRNA.
+DR   EMBL; BC007949; AAH07949.2; -; mRNA.
+DR   EMBL; BC009865; AAH09865.1; -; mRNA.
+DR   EMBL; BC013918; AAH13918.1; -; mRNA.
+DR   EMBL; BC015813; AAH15813.1; -; mRNA.
+DR   EMBL; BC021974; AAH21974.2; -; mRNA.
+DR   EMBL; BC028179; AAH28179.1; -; mRNA.
+DR   EMBL; BC031012; AAH31012.1; -; mRNA.
+DR   EMBL; BC067738; AAH67738.1; -; mRNA.
+DR   EMBL; M55409; AAC18414.1; -; mRNA.
+DR   EMBL; AF119850; AAF69604.1; -; mRNA.
+DR   CCDS; CCDS44626.1; -. [P26641-1]
+DR   PIR; S22655; S22655.
+DR   RefSeq; NP_001395.1; NM_001404.4. [P26641-1]
+DR   PDB; 1PBU; NMR; -; A=276-437.
+DR   PDB; 5DQS; X-ray; 2.10 A; A=2-218.
+DR   PDB; 5JPO; X-ray; 2.00 A; A/B/C/D=1-218.
+DR   PDBsum; 1PBU; -.
+DR   PDBsum; 5DQS; -.
+DR   PDBsum; 5JPO; -.
+DR   SMR; P26641; -.
+DR   BioGrid; 108257; 224.
+DR   CORUM; P26641; -.
+DR   DIP; DIP-32516N; -.
+DR   IntAct; P26641; 185.
+DR   MINT; P26641; -.
+DR   STRING; 9606.ENSP00000331901; -.
+DR   iPTMnet; P26641; -.
+DR   PhosphoSitePlus; P26641; -.
+DR   SwissPalm; P26641; -.
+DR   BioMuta; EEF1G; -.
+DR   DMDM; 119165; -.
+DR   OGP; P26641; -.
+DR   EPD; P26641; -.
+DR   jPOST; P26641; -.
+DR   MassIVE; P26641; -.
+DR   PaxDb; P26641; -.
+DR   PeptideAtlas; P26641; -.
+DR   PRIDE; P26641; -.
+DR   ProteomicsDB; 5107; -.
+DR   ProteomicsDB; 54359; -. [P26641-1]
+DR   TopDownProteomics; P26641-1; -. [P26641-1]
+DR   DNASU; 1937; -.
+DR   Ensembl; ENST00000329251; ENSP00000331901; ENSG00000254772. [P26641-1]
+DR   GeneID; 1937; -.
+DR   KEGG; hsa:1937; -.
+DR   CTD; 1937; -.
+DR   DisGeNET; 1937; -.
+DR   GeneCards; EEF1G; -.
+DR   HGNC; HGNC:3213; EEF1G.
+DR   HPA; HPA040688; -.
+DR   HPA; HPA055316; -.
+DR   MIM; 130593; gene.
+DR   neXtProt; NX_P26641; -.
+DR   OpenTargets; ENSG00000254772; -.
+DR   PharmGKB; PA27649; -.
+DR   eggNOG; KOG0867; Eukaryota.
+DR   eggNOG; KOG1627; Eukaryota.
+DR   eggNOG; COG0625; LUCA.
+DR   GeneTree; ENSGT00390000007552; -.
+DR   HOGENOM; CLU_011226_3_1_1; -.
+DR   InParanoid; P26641; -.
+DR   KO; K03233; -.
+DR   OMA; QIDYEVY; -.
+DR   OrthoDB; 1341490at2759; -.
+DR   PhylomeDB; P26641; -.
+DR   TreeFam; TF314343; -.
+DR   Reactome; R-HSA-156842; Eukaryotic Translation Elongation.
+DR   ChiTaRS; EEF1G; human.
+DR   EvolutionaryTrace; P26641; -.
+DR   GeneWiki; EEF1G; -.
+DR   GenomeRNAi; 1937; -.
+DR   Pharos; P26641; Tdark.
+DR   PRO; PR:P26641; -.
+DR   Proteomes; UP000005640; Chromosome 11.
+DR   RNAct; P26641; protein.
+DR   Bgee; ENSG00000254772; Expressed in muscle of leg and 88 other tissues.
+DR   ExpressionAtlas; P26641; baseline and differential.
+DR   Genevisible; P26641; HS.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0070062; C:extracellular exosome; HDA:UniProtKB.
+DR   GO; GO:0016020; C:membrane; HDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; HDA:UniProtKB.
+DR   GO; GO:0045296; F:cadherin binding; HDA:BHF-UCL.
+DR   GO; GO:0003746; F:translation elongation factor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009615; P:response to virus; IEP:UniProtKB.
+DR   GO; GO:0006414; P:translational elongation; IBA:GO_Central.
+DR   Gene3D; 3.30.70.1010; -; 1.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   InterPro; IPR001662; EF1B_G_C.
+DR   InterPro; IPR036433; EF1B_G_C_sf.
+DR   InterPro; IPR010987; Glutathione-S-Trfase_C-like.
+DR   InterPro; IPR036282; Glutathione-S-Trfase_C_sf.
+DR   InterPro; IPR040079; Glutathione_S-Trfase.
+DR   InterPro; IPR004045; Glutathione_S-Trfase_N.
+DR   InterPro; IPR004046; GST_C.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   Pfam; PF00647; EF1G; 1.
+DR   Pfam; PF00043; GST_C; 1.
+DR   Pfam; PF02798; GST_N; 1.
+DR   SFLD; SFLDS00019; Glutathione_Transferase_(cytos; 1.
+DR   SMART; SM01183; EF1G; 1.
+DR   SUPFAM; SSF47616; SSF47616; 1.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+DR   SUPFAM; SSF89942; SSF89942; 1.
+DR   PROSITE; PS50040; EF1G_C; 1.
+DR   PROSITE; PS50405; GST_CTER; 1.
+DR   PROSITE; PS50404; GST_NTER; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Alternative splicing; Direct protein sequencing;
+KW   Elongation factor; Isopeptide bond; Protein biosynthesis;
+KW   Reference proteome; Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000244|PubMed:19413330,
+FT                   ECO:0000244|PubMed:22223895, ECO:0000244|PubMed:22814378,
+FT                   ECO:0000269|PubMed:12665801, ECO:0000269|Ref.7"
+FT   CHAIN           2..437
+FT                   /note="Elongation factor 1-gamma"
+FT                   /id="PRO_0000208813"
+FT   DOMAIN          2..87
+FT                   /note="GST N-terminal"
+FT   DOMAIN          88..216
+FT                   /note="GST C-terminal"
+FT   DOMAIN          276..437
+FT                   /note="EF-1-gamma C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00519"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000244|PubMed:19413330,
+FT                   ECO:0000244|PubMed:22223895, ECO:0000244|PubMed:22814378,
+FT                   ECO:0000269|Ref.7"
+FT   MOD_RES         147
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000244|PubMed:19608861"
+FT   MOD_RES         212
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9D8N0"
+FT   MOD_RES         401
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9D8N0"
+FT   MOD_RES         434
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000244|PubMed:19608861"
+FT   MOD_RES         434
+FT                   /note="N6-malonyllysine; alternate"
+FT                   /evidence="ECO:0000269|PubMed:21908771"
+FT   CROSSLNK        253
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1)"
+FT                   /evidence="ECO:0000244|PubMed:25114211"
+FT   CROSSLNK        285
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000244|PubMed:28112733"
+FT   VAR_SEQ         1..4
+FT                   /note="MAAG -> MAERWVAPAVLRRARFASTFFLSPQIYAHKDGDLRSAFFILSFK
+FT                   RGEFIPFLNW (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:14702039"
+FT                   /id="VSP_056204"
+FT   CONFLICT        102
+FT                   /note="A -> V (in Ref. 5; AAH13918)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          3..7
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           13..25
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   STRAND          28..32
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   TURN            35..37
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   TURN            40..42
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           43..45
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           47..52
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   STRAND          58..63
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           72..78
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           82..85
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           89..105
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           107..117
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           125..145
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   TURN            146..148
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   STRAND          150..153
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           159..174
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           178..181
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           185..195
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           198..204
+FT                   /evidence="ECO:0000244|PDB:5JPO"
+FT   HELIX           279..281
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           290..299
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           302..304
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           306..311
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   TURN            316..318
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   STRAND          320..324
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           329..331
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           338..348
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           349..351
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           353..355
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   STRAND          356..358
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   STRAND          361..364
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   STRAND          370..381
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           384..386
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           388..390
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           394..396
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   HELIX           408..418
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+FT   TURN            424..426
+FT                   /evidence="ECO:0000244|PDB:1PBU"
+SQ   SEQUENCE   437 AA;  50119 MW;  A6110663110CF3FC CRC64;
+     MAAGTLYTYP ENWRAFKALI AAQYSGAQVR VLSAPPHFHF GQTNRTPEFL RKFPAGKVPA
+     FEGDDGFCVF ESNAIAYYVS NEELRGSTPE AAAQVVQWVS FADSDIVPPA STWVFPTLGI
+     MHHNKQATEN AKEEVRRILG LLDAYLKTRT FLVGERVTLA DITVVCTLLW LYKQVLEPSF
+     RQAFPNTNRW FLTCINQPQF RAVLGEVKLC EKMAQFDAKK FAETQPKKDT PRKEKGSREE
+     KQKPQAERKE EKKAAAPAPE EEMDECEQAL AAEPKAKDPF AHLPKSTFVL DEFKRKYSNE
+     DTLSVALPYF WEHFDKDGWS LWYSEYRFPE ELTQTFMSCN LITGMFQRLD KLRKNAFASV
+     ILFGTNNSSS ISGVWVFRGQ ELAFPLSPDW QVDYESYTWR KLDPGSEETQ TLVREYFSWE
+     GAFQHVGKAF NQGKIFK
+//

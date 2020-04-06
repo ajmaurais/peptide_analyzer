@@ -1,0 +1,674 @@
+ID   FUBP2_HUMAN             Reviewed;         711 AA.
+AC   Q92945; O00301; Q59EZ9; Q5U4P6; Q9UNT5; Q9UQH5;
+DT   26-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   30-NOV-2010, sequence version 4.
+DT   26-FEB-2020, entry version 191.
+DE   RecName: Full=Far upstream element-binding protein 2;
+DE            Short=FUSE-binding protein 2;
+DE   AltName: Full=KH type-splicing regulatory protein;
+DE            Short=KSRP;
+DE   AltName: Full=p75;
+GN   Name=KHSRP; Synonyms=FUBP2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 72-85; 123-128; 267-281;
+RP   283-291; 348-359; 474-488; 489-494; 621-627; 629-646 AND 647-653, AND
+RP   FUNCTION.
+RC   TISSUE=Neuroblastoma, and Retinoblastoma;
+RX   PubMed=9136930; DOI=10.1101/gad.11.8.1023;
+RA   Min H., Turck C.W., Nikolic J.M., Black D.L.;
+RT   "A new regulatory protein, KSRP, mediates exon inclusion through an
+RT   intronic splicing enhancer.";
+RL   Genes Dev. 11:1023-1036(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15057824; DOI=10.1038/nature02399;
+RA   Grimwood J., Gordon L.A., Olsen A.S., Terry A., Schmutz J., Lamerdin J.E.,
+RA   Hellsten U., Goodstein D., Couronne O., Tran-Gyamfi M., Aerts A.,
+RA   Altherr M., Ashworth L., Bajorek E., Black S., Branscomb E., Caenepeel S.,
+RA   Carrano A.V., Caoile C., Chan Y.M., Christensen M., Cleland C.A.,
+RA   Copeland A., Dalin E., Dehal P., Denys M., Detter J.C., Escobar J.,
+RA   Flowers D., Fotopulos D., Garcia C., Georgescu A.M., Glavina T., Gomez M.,
+RA   Gonzales E., Groza M., Hammon N., Hawkins T., Haydu L., Ho I., Huang W.,
+RA   Israni S., Jett J., Kadner K., Kimball H., Kobayashi A., Larionov V.,
+RA   Leem S.-H., Lopez F., Lou Y., Lowry S., Malfatti S., Martinez D.,
+RA   McCready P.M., Medina C., Morgan J., Nelson K., Nolan M., Ovcharenko I.,
+RA   Pitluck S., Pollard M., Popkie A.P., Predki P., Quan G., Ramirez L.,
+RA   Rash S., Retterer J., Rodriguez A., Rogers S., Salamov A., Salazar A.,
+RA   She X., Smith D., Slezak T., Solovyev V., Thayer N., Tice H., Tsai M.,
+RA   Ustaszewska A., Vo N., Wagner M., Wheeler J., Wu K., Xie G., Yang J.,
+RA   Dubchak I., Furey T.S., DeJong P., Dickson M., Gordon D., Eichler E.E.,
+RA   Pennacchio L.A., Richardson P., Stubbs L., Rokhsar D.S., Myers R.M.,
+RA   Rubin E.M., Lucas S.M.;
+RT   "The DNA sequence and biology of human chromosome 19.";
+RL   Nature 428:529-535(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Ovary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-115 AND 573-711.
+RX   PubMed=10087204; DOI=10.1006/geno.1998.5725;
+RA   Ring H.Z., Vameghi-Meyers V., Nikolic J.M., Min H., Black D.L., Francke U.;
+RT   "Mapping of the KHSRP gene to a region of conserved synteny on human
+RT   chromosome 19p13.3 and mouse chromosome 17.";
+RL   Genomics 56:350-352(1999).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 60-711, AND FUNCTION.
+RC   TISSUE=B-cell lymphoma, and Skeletal muscle;
+RX   PubMed=8940189; DOI=10.1074/jbc.271.49.31679;
+RA   Davis-Smyth T., Duncan R.C., Zheng T., Michelotti G., Levens D.;
+RT   "The far upstream element-binding proteins comprise an ancient family of
+RT   single-strand DNA-binding transactivators.";
+RL   J. Biol. Chem. 271:31679-31687(1996).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 151-162; 321-331 AND 385-394, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Fetal brain cortex;
+RA   Lubec G., Chen W.-Q., Sun Y.;
+RL   Submitted (DEC-2008) to UniProtKB.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 183-566.
+RC   TISSUE=Brain;
+RA   Totoki Y., Toyoda A., Takeda T., Sakaki Y., Tanaka A., Yokoyama S.,
+RA   Ohara O., Nagase T., Kikuno R.F.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   FUNCTION, AND INTERACTION WITH PTBP1; PTBP2 AND HNRPH1.
+RX   PubMed=11003644; DOI=10.1128/mcb.20.20.7463-7479.2000;
+RA   Markovtsov V., Nikolic J.M., Goldman J.A., Turck C.W., Chou M.-Y.,
+RA   Black D.L.;
+RT   "Cooperative assembly of an hnRNP complex induced by a tissue-specific
+RT   homolog of polypyrimidine tract binding protein.";
+RL   Mol. Cell. Biol. 20:7463-7479(2000).
+RN   [9]
+RP   INTERACTION WITH PARN.
+RX   PubMed=15175153; DOI=10.1016/j.molcel.2004.05.002;
+RA   Gherzi R., Lee K.-Y., Briata P., Wegmueller D., Moroni C., Karin M.,
+RA   Chen C.-Y.;
+RT   "A KH domain RNA binding protein, KSRP, promotes ARE-directed mRNA turnover
+RT   by recruiting the degradation machinery.";
+RL   Mol. Cell 14:571-583(2004).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-480, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P., Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in signaling
+RT   networks.";
+RL   Cell 127:635-648(2006).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-181, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=16964243; DOI=10.1038/nbt1240;
+RA   Beausoleil S.A., Villen J., Gerber S.A., Rush J., Gygi S.P.;
+RT   "A probability-based approach for high-throughput protein phosphorylation
+RT   analysis and site localization.";
+RL   Nat. Biotechnol. 24:1285-1292(2006).
+RN   [12]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=17525332; DOI=10.1126/science.1140321;
+RA   Matsuoka S., Ballif B.A., Smogorzewska A., McDonald E.R. III, Hurov K.E.,
+RA   Luo J., Bakalarski C.E., Zhao Z., Solimini N., Lerenthal Y., Shiloh Y.,
+RA   Gygi S.P., Elledge S.J.;
+RT   "ATM and ATR substrate analysis reveals extensive protein networks
+RT   responsive to DNA damage.";
+RL   Science 316:1160-1166(2007).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-181, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of the
+RT   kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-100; SER-181 AND SER-274, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [15]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT SER-2, CLEAVAGE OF INITIATOR
+RP   METHIONINE [LARGE SCALE ANALYSIS], AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J., Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in a
+RT   refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-181, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=19369195; DOI=10.1074/mcp.m800588-mcp200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-181, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [18]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-181 AND SER-480, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=20068231; DOI=10.1126/scisignal.2000475;
+RA   Olsen J.V., Vermeulen M., Santamaria A., Kumar C., Miller M.L.,
+RA   Jensen L.J., Gnad F., Cox J., Jensen T.S., Nigg E.A., Brunak S., Mann M.;
+RT   "Quantitative phosphoproteomics reveals widespread full phosphorylation
+RT   site occupancy during mitosis.";
+RL   Sci. Signal. 3:RA3-RA3(2010).
+RN   [19]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P., Buerckstuemmer T.,
+RA   Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [20]
+RP   INTERACTION WITH PQBP1.
+RX   PubMed=21933836; DOI=10.1093/hmg/ddr430;
+RA   Kunde S.A., Musante L., Grimme A., Fischer U., Mueller E., Wanker E.E.,
+RA   Kalscheuer V.M.;
+RT   "The X-chromosome-linked intellectual disability protein PQBP1 is a
+RT   component of neuronal RNA granules and regulates the appearance of stress
+RT   granules.";
+RL   Hum. Mol. Genet. 20:4916-4931(2011).
+RN   [21]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-181; SER-274 AND SER-480, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21406692; DOI=10.1126/scisignal.2001570;
+RA   Rigbolt K.T., Prokhorova T.A., Akimov V., Henningsen J., Johansen P.T.,
+RA   Kratchmarova I., Kassem M., Mann M., Olsen J.V., Blagoev B.;
+RT   "System-wide temporal characterization of the proteome and phosphoproteome
+RT   of human embryonic stem cell differentiation.";
+RL   Sci. Signal. 4:RS3-RS3(2011).
+RN   [22]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT SER-2, CLEAVAGE OF INITIATOR
+RP   METHIONINE [LARGE SCALE ANALYSIS], AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=22223895; DOI=10.1074/mcp.m111.015131;
+RA   Bienvenut W.V., Sumpton D., Martinez A., Lilla S., Espagne C., Meinnel T.,
+RA   Giglione C.;
+RT   "Comparative large-scale characterisation of plant vs. mammal proteins
+RT   reveals similar and idiosyncratic N-alpha acetylation features.";
+RL   Mol. Cell. Proteomics 11:M111.015131-M111.015131(2012).
+RN   [23]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT SER-2, CLEAVAGE OF INITIATOR
+RP   METHIONINE [LARGE SCALE ANALYSIS], AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=22814378; DOI=10.1073/pnas.1210303109;
+RA   Van Damme P., Lasa M., Polevoda B., Gazquez C., Elosegui-Artola A.,
+RA   Kim D.S., De Juan-Pardo E., Demeyer K., Hole K., Larrea E., Timmerman E.,
+RA   Prieto J., Arnesen T., Sherman F., Gevaert K., Aldabe R.;
+RT   "N-terminal acetylome analyses and functional insights of the N-terminal
+RT   acetyltransferase NatB.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 109:12449-12454(2012).
+RN   [24]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-99; SER-125; SER-129;
+RP   SER-131; SER-181; SER-184; SER-193; SER-274 AND SER-480, AND IDENTIFICATION
+RP   BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Cervix carcinoma, and Erythroleukemia;
+RX   PubMed=23186163; DOI=10.1021/pr300630k;
+RA   Zhou H., Di Palma S., Preisinger C., Peng M., Polat A.N., Heck A.J.,
+RA   Mohammed S.;
+RT   "Toward a comprehensive characterization of a human cancer cell
+RT   phosphoproteome.";
+RL   J. Proteome Res. 12:260-271(2013).
+RN   [25]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D., Wang L.,
+RA   Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+RT   phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+RN   [26]
+RP   METHYLATION [LARGE SCALE ANALYSIS] AT ARG-411; ARG-413; ARG-415 AND
+RP   ARG-442, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Colon carcinoma;
+RX   PubMed=24129315; DOI=10.1074/mcp.o113.027870;
+RA   Guo A., Gu H., Zhou J., Mulhern D., Wang Y., Lee K.A., Yang V., Aguiar M.,
+RA   Kornhauser J., Jia X., Ren J., Beausoleil S.A., Silva J.C., Vemulapalli V.,
+RA   Bedford M.T., Comb M.J.;
+RT   "Immunoaffinity enrichment and mass spectrometry analysis of protein
+RT   methylation.";
+RL   Mol. Cell. Proteomics 13:372-387(2014).
+RN   [27]
+RP   SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-121, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=25114211; DOI=10.1073/pnas.1413825111;
+RA   Impens F., Radoshevich L., Cossart P., Ribet D.;
+RT   "Mapping of SUMO sites and analysis of SUMOylation changes induced by
+RT   external stimuli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 111:12432-12437(2014).
+RN   [28]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=25944712; DOI=10.1002/pmic.201400617;
+RA   Vaca Jacome A.S., Rabilloud T., Schaeffer-Reiss C., Rompais M., Ayoub D.,
+RA   Lane L., Bairoch A., Van Dorsselaer A., Carapito C.;
+RT   "N-terminome analysis of the human mitochondrial proteome.";
+RL   Proteomics 15:2519-2524(2015).
+RN   [29]
+RP   SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-121, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=28112733; DOI=10.1038/nsmb.3366;
+RA   Hendriks I.A., Lyon D., Young C., Jensen L.J., Vertegaal A.C.,
+RA   Nielsen M.L.;
+RT   "Site-specific mapping of the human SUMO proteome reveals co-modification
+RT   with phosphorylation.";
+RL   Nat. Struct. Mol. Biol. 24:325-336(2017).
+RN   [30]
+RP   STRUCTURE BY NMR OF 218-418 AND 423-525.
+RX   PubMed=17437720; DOI=10.1016/j.str.2007.03.006;
+RA   Garcia-Mayoral M.F., Hollingworth D., Masino L., Diaz-Moreno I., Kelly G.,
+RA   Gherzi R., Chou C.F., Chen C.Y., Ramos A.;
+RT   "The structure of the C-terminal KH domains of KSRP reveals a noncanonical
+RT   motif important for mRNA degradation.";
+RL   Structure 15:485-498(2007).
+RN   [31]
+RP   STRUCTURE BY NMR OF 130-218 AND 221-305, PHOSPHORYLATION AT SER-193, AND
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=19198587; DOI=10.1038/nsmb.1558;
+RA   Diaz-Moreno I., Hollingworth D., Frenkiel T.A., Kelly G., Martin S.,
+RA   Howell S., Garcia-Mayoral M., Gherzi R., Briata P., Ramos A.;
+RT   "Phosphorylation-mediated unfolding of a KH domain regulates KSRP
+RT   localization via 14-3-3 binding.";
+RL   Nat. Struct. Mol. Biol. 16:238-246(2009).
+CC   -!- FUNCTION: Binds to the dendritic targeting element and may play a role
+CC       in mRNA trafficking (By similarity). Part of a ternary complex that
+CC       binds to the downstream control sequence (DCS) of the pre-mRNA.
+CC       Mediates exon inclusion in transcripts that are subject to tissue-
+CC       specific alternative splicing. May interact with single-stranded DNA
+CC       from the far-upstream element (FUSE). May activate gene expression.
+CC       Also involved in degradation of inherently unstable mRNAs that contain
+CC       AU-rich elements (AREs) in their 3'-UTR, possibly by recruiting
+CC       degradation machinery to ARE-containing mRNAs. {ECO:0000250,
+CC       ECO:0000269|PubMed:11003644, ECO:0000269|PubMed:8940189,
+CC       ECO:0000269|PubMed:9136930}.
+CC   -!- SUBUNIT: Part of a ternary complex containing FUBP2, PTBP1, PTBP2 and
+CC       HNRPH1 (PubMed:11003644). Interacts with PARN (PubMed:15175153).
+CC       Interacts with PQBP1 (PubMed:21933836). {ECO:0000269|PubMed:11003644,
+CC       ECO:0000269|PubMed:15175153, ECO:0000269|PubMed:21933836}.
+CC   -!- INTERACTION:
+CC       Q9UPY3-1:DICER1; NbExp=3; IntAct=EBI-1049099, EBI-15569571;
+CC       P63101:Ywhaz (xeno); NbExp=2; IntAct=EBI-1049099, EBI-354751;
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000269|PubMed:19198587}. Cytoplasm
+CC       {ECO:0000269|PubMed:19198587}. Note=A small proportion is also found in
+CC       the cytoplasm of neuronal cell bodies and dendrites. {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Detected in neural and non-neural cell lines.
+CC   -!- DOMAIN: KH domains KH 3 and KH 4 behave as independent binding modules
+CC       and can interact with different regions of the AU-rich RNA targets of
+CC       degradation.
+CC   -!- PTM: Phosphorylation at Ser-193 leads to the unfolding of the unstable
+CC       KH domain 1, creating a site for 14-3-3 YWHAZ binding, which promotes
+CC       nuclear localization and impairs the RNA degradation function.
+CC       {ECO:0000269|PubMed:19198587}.
+CC   -!- SIMILARITY: Belongs to the KHSRP family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAC50892.1; Type=Frameshift; Evidence={ECO:0000305};
+CC       Sequence=AAH85004.1; Type=Miscellaneous discrepancy; Note=Aberrant splicing.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U94832; AAB53222.1; -; mRNA.
+DR   EMBL; AC011491; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC011539; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC085004; AAH85004.1; ALT_SEQ; mRNA.
+DR   EMBL; AF093747; AAD29861.1; -; Genomic_DNA.
+DR   EMBL; AF093745; AAD29861.1; JOINED; Genomic_DNA.
+DR   EMBL; AF093748; AAD29862.1; -; Genomic_DNA.
+DR   EMBL; U69126; AAC50892.1; ALT_FRAME; mRNA.
+DR   EMBL; AB209662; BAD92899.1; -; mRNA.
+DR   CCDS; CCDS45936.1; -.
+DR   RefSeq; NP_003676.2; NM_003685.2.
+DR   PDB; 2HH2; NMR; -; A=424-525.
+DR   PDB; 2HH3; NMR; -; A=318-418.
+DR   PDB; 2JVZ; NMR; -; A=233-396.
+DR   PDB; 2OPU; NMR; -; A=130-218.
+DR   PDB; 2OPV; NMR; -; A=221-305.
+DR   PDB; 4B8T; NMR; -; A=317-418.
+DR   PDBsum; 2HH2; -.
+DR   PDBsum; 2HH3; -.
+DR   PDBsum; 2JVZ; -.
+DR   PDBsum; 2OPU; -.
+DR   PDBsum; 2OPV; -.
+DR   PDBsum; 4B8T; -.
+DR   SMR; Q92945; -.
+DR   BioGrid; 114139; 137.
+DR   CORUM; Q92945; -.
+DR   DIP; DIP-48484N; -.
+DR   ELM; Q92945; -.
+DR   IntAct; Q92945; 50.
+DR   MINT; Q92945; -.
+DR   STRING; 9606.ENSP00000381216; -.
+DR   ChEMBL; CHEMBL1795105; -.
+DR   DrugBank; DB11638; Artenimol.
+DR   DrugBank; DB02709; Resveratrol.
+DR   iPTMnet; Q92945; -.
+DR   PhosphoSitePlus; Q92945; -.
+DR   SwissPalm; Q92945; -.
+DR   BioMuta; KHSRP; -.
+DR   DMDM; 313104306; -.
+DR   REPRODUCTION-2DPAGE; Q92945; -.
+DR   EPD; Q92945; -.
+DR   jPOST; Q92945; -.
+DR   MassIVE; Q92945; -.
+DR   MaxQB; Q92945; -.
+DR   PaxDb; Q92945; -.
+DR   PeptideAtlas; Q92945; -.
+DR   PRIDE; Q92945; -.
+DR   ProteomicsDB; 75616; -.
+DR   Ensembl; ENST00000398148; ENSP00000381216; ENSG00000088247.
+DR   GeneID; 8570; -.
+DR   KEGG; hsa:8570; -.
+DR   UCSC; uc002mer.5; human.
+DR   CTD; 8570; -.
+DR   DisGeNET; 8570; -.
+DR   GeneCards; KHSRP; -.
+DR   HGNC; HGNC:6316; KHSRP.
+DR   HPA; HPA034739; -.
+DR   HPA; HPA056518; -.
+DR   MIM; 603445; gene.
+DR   neXtProt; NX_Q92945; -.
+DR   OpenTargets; ENSG00000088247; -.
+DR   PharmGKB; PA30097; -.
+DR   eggNOG; KOG1676; Eukaryota.
+DR   eggNOG; ENOG410XZYE; LUCA.
+DR   GeneTree; ENSGT00940000156051; -.
+DR   HOGENOM; CLU_014285_1_0_1; -.
+DR   InParanoid; Q92945; -.
+DR   KO; K13210; -.
+DR   OrthoDB; 590738at2759; -.
+DR   PhylomeDB; Q92945; -.
+DR   TreeFam; TF313654; -.
+DR   Reactome; R-HSA-380994; ATF4 activates genes in response to endoplasmic reticulum stress.
+DR   Reactome; R-HSA-450604; KSRP (KHSRP) binds and destabilizes mRNA.
+DR   SIGNOR; Q92945; -.
+DR   ChiTaRS; KHSRP; human.
+DR   EvolutionaryTrace; Q92945; -.
+DR   GeneWiki; KHSRP; -.
+DR   GenomeRNAi; 8570; -.
+DR   Pharos; Q92945; Tbio.
+DR   PRO; PR:Q92945; -.
+DR   Proteomes; UP000005640; Chromosome 19.
+DR   RNAct; Q92945; protein.
+DR   Bgee; ENSG00000088247; Expressed in testis and 235 other tissues.
+DR   ExpressionAtlas; Q92945; baseline and differential.
+DR   Genevisible; Q92945; HS.
+DR   GO; GO:0010494; C:cytoplasmic stress granule; IEA:Ensembl.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0016020; C:membrane; HDA:UniProtKB.
+DR   GO; GO:0005654; C:nucleoplasm; IDA:HPA.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0035925; F:mRNA 3'-UTR AU-rich region binding; IDA:UniProtKB.
+DR   GO; GO:0003723; F:RNA binding; HDA:UniProtKB.
+DR   GO; GO:0061158; P:3'-UTR-mediated mRNA destabilization; IDA:UniProtKB.
+DR   GO; GO:0071345; P:cellular response to cytokine stimulus; IMP:UniProtKB.
+DR   GO; GO:0010586; P:miRNA metabolic process; IMP:UniProtKB.
+DR   GO; GO:0006402; P:mRNA catabolic process; IEA:Ensembl.
+DR   GO; GO:0006397; P:mRNA processing; TAS:ProtInc.
+DR   GO; GO:0051028; P:mRNA transport; IEA:UniProtKB-KW.
+DR   GO; GO:0010989; P:negative regulation of low-density lipoprotein particle clearance; IGI:BHF-UCL.
+DR   GO; GO:0045019; P:negative regulation of nitric oxide biosynthetic process; IDA:UniProtKB.
+DR   GO; GO:0061014; P:positive regulation of mRNA catabolic process; IDA:UniProtKB.
+DR   GO; GO:2000628; P:regulation of miRNA metabolic process; IEA:Ensembl.
+DR   GO; GO:0043488; P:regulation of mRNA stability; IDA:UniProtKB.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:InterPro.
+DR   GO; GO:0008380; P:RNA splicing; TAS:UniProtKB.
+DR   GO; GO:0000375; P:RNA splicing, via transesterification reactions; TAS:UniProtKB.
+DR   DisProt; DP01590; -.
+DR   Gene3D; 3.30.1370.10; -; 4.
+DR   InterPro; IPR015096; FUBP_C.
+DR   InterPro; IPR004087; KH_dom.
+DR   InterPro; IPR004088; KH_dom_type_1.
+DR   InterPro; IPR036612; KH_dom_type_1_sf.
+DR   Pfam; PF09005; DUF1897; 2.
+DR   Pfam; PF00013; KH_1; 4.
+DR   SMART; SM00322; KH; 4.
+DR   SUPFAM; SSF54791; SSF54791; 4.
+DR   PROSITE; PS50084; KH_TYPE_1; 4.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Cytoplasm; Direct protein sequencing;
+KW   DNA-binding; Isopeptide bond; Methylation; mRNA processing; mRNA splicing;
+KW   mRNA transport; Nucleus; Phosphoprotein; Reference proteome; Repeat;
+KW   RNA-binding; Transcription; Transcription regulation; Transport;
+KW   Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000244|PubMed:19413330,
+FT                   ECO:0000244|PubMed:22223895, ECO:0000244|PubMed:22814378"
+FT   CHAIN           2..711
+FT                   /note="Far upstream element-binding protein 2"
+FT                   /id="PRO_0000050137"
+FT   DOMAIN          144..208
+FT                   /note="KH 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00117"
+FT   DOMAIN          233..299
+FT                   /note="KH 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00117"
+FT   DOMAIN          322..386
+FT                   /note="KH 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00117"
+FT   DOMAIN          424..491
+FT                   /note="KH 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00117"
+FT   REPEAT          571..582
+FT                   /note="1"
+FT   REPEAT          617..628
+FT                   /note="2"
+FT   REPEAT          643..654
+FT                   /note="3"
+FT   REPEAT          673..684
+FT                   /note="4"
+FT   REGION          571..684
+FT                   /note="4 X 12 AA imperfect repeats"
+FT   COMPBIAS        7..67
+FT                   /note="Gly/Pro-rich"
+FT   COMPBIAS        68..496
+FT                   /note="Gly-rich"
+FT   COMPBIAS        498..612
+FT                   /note="Ala/Gly/Pro-rich"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000244|PubMed:19413330,
+FT                   ECO:0000244|PubMed:22223895, ECO:0000244|PubMed:22814378"
+FT   MOD_RES         40
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3U0V1"
+FT   MOD_RES         87
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3U0V1"
+FT   MOD_RES         99
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000244|PubMed:23186163"
+FT   MOD_RES         100
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000244|PubMed:18669648"
+FT   MOD_RES         125
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000244|PubMed:23186163"
+FT   MOD_RES         129
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000244|PubMed:23186163"
+FT   MOD_RES         131
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000244|PubMed:23186163"
+FT   MOD_RES         181
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000244|PubMed:16964243,
+FT                   ECO:0000244|PubMed:18669648, ECO:0000244|PubMed:18691976,
+FT                   ECO:0000244|PubMed:19369195, ECO:0000244|PubMed:19690332,
+FT                   ECO:0000244|PubMed:20068231, ECO:0000244|PubMed:21406692,
+FT                   ECO:0000244|PubMed:23186163"
+FT   MOD_RES         184
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000244|PubMed:23186163"
+FT   MOD_RES         193
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000244|PubMed:23186163,
+FT                   ECO:0000269|PubMed:19198587"
+FT   MOD_RES         274
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000244|PubMed:18669648,
+FT                   ECO:0000244|PubMed:21406692, ECO:0000244|PubMed:23186163"
+FT   MOD_RES         411
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000244|PubMed:24129315"
+FT   MOD_RES         413
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000244|PubMed:24129315"
+FT   MOD_RES         415
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000244|PubMed:24129315"
+FT   MOD_RES         442
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000244|PubMed:24129315"
+FT   MOD_RES         480
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000244|PubMed:17081983,
+FT                   ECO:0000244|PubMed:20068231, ECO:0000244|PubMed:21406692,
+FT                   ECO:0000244|PubMed:23186163"
+FT   CROSSLNK        121
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1); alternate"
+FT                   /evidence="ECO:0000244|PubMed:25114211"
+FT   CROSSLNK        121
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000244|PubMed:28112733"
+FT   CONFLICT        46
+FT                   /note="G -> C (in Ref. 1; AAB53222 and 4; AAD29861)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        96
+FT                   /note="V -> G (in Ref. 5; AAC50892)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        406..407
+FT                   /note="MP -> I (in Ref. 5; AAC50892)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        422
+FT                   /note="Missing (in Ref. 5; AAC50892)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        487..488
+FT                   /note="AK -> CR (in Ref. 5; AAC50892)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        694..696
+FT                   /note="GPG -> VP (in Ref. 5; AAC50892)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          132..134
+FT                   /evidence="ECO:0000244|PDB:2OPU"
+FT   HELIX           141..144
+FT                   /evidence="ECO:0000244|PDB:2OPU"
+FT   STRAND          146..151
+FT                   /evidence="ECO:0000244|PDB:2OPU"
+FT   HELIX           153..159
+FT                   /evidence="ECO:0000244|PDB:2OPU"
+FT   TURN            161..163
+FT                   /evidence="ECO:0000244|PDB:2OPU"
+FT   HELIX           165..174
+FT                   /evidence="ECO:0000244|PDB:2OPU"
+FT   STRAND          179..183
+FT                   /evidence="ECO:0000244|PDB:2OPU"
+FT   STRAND          188..194
+FT                   /evidence="ECO:0000244|PDB:2OPU"
+FT   HELIX           198..216
+FT                   /evidence="ECO:0000244|PDB:2OPU"
+FT   STRAND          234..240
+FT                   /evidence="ECO:0000244|PDB:2JVZ"
+FT   TURN            242..244
+FT                   /evidence="ECO:0000244|PDB:2OPV"
+FT   TURN            245..249
+FT                   /evidence="ECO:0000244|PDB:2JVZ"
+FT   TURN            251..253
+FT                   /evidence="ECO:0000244|PDB:2JVZ"
+FT   HELIX           254..261
+FT                   /evidence="ECO:0000244|PDB:2JVZ"
+FT   STRAND          265..269
+FT                   /evidence="ECO:0000244|PDB:2JVZ"
+FT   STRAND          271..273
+FT                   /evidence="ECO:0000244|PDB:2OPV"
+FT   STRAND          275..279
+FT                   /evidence="ECO:0000244|PDB:2JVZ"
+FT   STRAND          281..287
+FT                   /evidence="ECO:0000244|PDB:2JVZ"
+FT   HELIX           289..302
+FT                   /evidence="ECO:0000244|PDB:2JVZ"
+FT   STRAND          306..308
+FT                   /evidence="ECO:0000244|PDB:2JVZ"
+FT   TURN            317..319
+FT                   /evidence="ECO:0000244|PDB:4B8T"
+FT   STRAND          325..330
+FT                   /evidence="ECO:0000244|PDB:2HH3"
+FT   TURN            331..333
+FT                   /evidence="ECO:0000244|PDB:2HH3"
+FT   HELIX           334..338
+FT                   /evidence="ECO:0000244|PDB:2HH3"
+FT   STRAND          340..342
+FT                   /evidence="ECO:0000244|PDB:2JVZ"
+FT   HELIX           343..352
+FT                   /evidence="ECO:0000244|PDB:2HH3"
+FT   STRAND          355..358
+FT                   /evidence="ECO:0000244|PDB:2HH3"
+FT   STRAND          363..375
+FT                   /evidence="ECO:0000244|PDB:2HH3"
+FT   HELIX           376..393
+FT                   /evidence="ECO:0000244|PDB:2HH3"
+FT   STRAND          400..405
+FT                   /evidence="ECO:0000244|PDB:4B8T"
+FT   TURN            413..415
+FT                   /evidence="ECO:0000244|PDB:4B8T"
+FT   STRAND          427..432
+FT                   /evidence="ECO:0000244|PDB:2HH2"
+FT   HELIX           433..435
+FT                   /evidence="ECO:0000244|PDB:2HH2"
+FT   TURN            436..438
+FT                   /evidence="ECO:0000244|PDB:2HH2"
+FT   TURN            441..444
+FT                   /evidence="ECO:0000244|PDB:2HH2"
+FT   HELIX           446..453
+FT                   /evidence="ECO:0000244|PDB:2HH2"
+FT   STRAND          454..460
+FT                   /evidence="ECO:0000244|PDB:2HH2"
+FT   STRAND          472..479
+FT                   /evidence="ECO:0000244|PDB:2HH2"
+FT   HELIX           481..494
+FT                   /evidence="ECO:0000244|PDB:2HH2"
+SQ   SEQUENCE   711 AA;  73115 MW;  AB0B7C0B5B938114 CRC64;
+     MSDYSTGGPP PGPPPPAGGG GGAGGAGGGP PPGPPGAGDR GGGGPGGGGP GGGSAGGPSQ
+     PPGGGGPGIR KDAFADAVQR ARQIAAKIGG DAATTVNNST PDFGFGGQKR QLEDGDQPES
+     KKLASQGDSI SSQLGPIHPP PRTSMTEEYR VPDGMVGLII GRGGEQINKI QQDSGCKVQI
+     SPDSGGLPER SVSLTGAPES VQKAKMMLDD IVSRGRGGPP GQFHDNANGG QNGTVQEIMI
+     PAGKAGLVIG KGGETIKQLQ ERAGVKMILI QDGSQNTNVD KPLRIIGDPY KVQQACEMVM
+     DILRERDQGG FGDRNEYGSR IGGGIDVPVP RHSVGVVIGR SGEMIKKIQN DAGVRIQFKQ
+     DDGTGPEKIA HIMGPPDRCE HAARIINDLL QSLRSGPPGP PGGPGMPPGG RGRGRGQGNW
+     GPPGGEMTFS IPTHKCGLVI GRGGENVKAI NQQTGAFVEI SRQLPPNGDP NFKLFIIRGS
+     PQQIDHAKQL IEEKIEGPLC PVGPGPGGPG PAGPMGPFNP GPFNQGPPGA PPHAGGPPPH
+     QYPPQGWGNT YPQWQPPAPH DPSKAAAAAA DPNAAWAAYY SHYYQQPPGP VPGPAPAPAA
+     PPAQGEPPQP PPTGQSDYTK AWEEYYKKIG QQPQQPGAPP QQDYTKAWEE YYKKQAQVAT
+     GGGPGAPPGS QPDYSAAWAE YYRQQAAYYG QTPGPGGPQP PPTQQGQQQA Q
+//

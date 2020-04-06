@@ -1,7 +1,6 @@
 
 import os
 import argparse
-import re
 import pandas as pd
 
 import uniprot

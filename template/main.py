@@ -1,6 +1,5 @@
 
 import os
-import re
 import pandas as pd
 
 import uniprot
@@ -55,8 +54,4 @@ OUTPUT_FILE_PATH = BASE_DATA_PATH + '/output_peptides.tsv'
 # Add a column to dat named 'subcelluar_loc'
 
 # Write dat to OUTPUT_FILE_PATH (Call DataFrame.to_tsv)
-
-
-# if __name__ == '__main__':
-#     main()
 

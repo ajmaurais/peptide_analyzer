@@ -30,7 +30,7 @@ import molecular_formula
 BASE_DATA_PATH = os.path.abspath(os.path.dirname(__file__) + '/../data')
 INPUT_FILE_PATH = BASE_DATA_PATH + '/input_peptides.tsv'
 ATOM_COUNT_TABLE_PATH = BASE_DATA_PATH + '/residue_atoms.txt'
-OUTPUT_FILE_PATH = BASE_DATA_PATH + '/output_peptide.tsv'
+OUTPUT_FILE_PATH = BASE_DATA_PATH + '/output_peptides.tsv'
 
 # read input file at INPUT_FILE_PATH
 # (Call pd.read_csv and set the output to a variable named 'dat')

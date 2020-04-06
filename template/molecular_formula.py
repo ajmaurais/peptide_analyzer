@@ -33,23 +33,16 @@ def read_atom_count_table(fname):
     '''
 
     # read residue atoms table into pd.DataFrame
-    residue_atoms = pd.read_csv(fname, sep='\t')
 
     # Make a list of atoms included in the table
-    atoms = [a for a in residue_atoms.columns if a != 'residue']
 
     # Iterate through residue_atoms rows
-    atom_counts = dict()
-    for i, row in residue_atoms.iterrows():
 
         # for each row initialize a Counter
-        atom_counts[row['residue']] = Counter()
 
         # then add the atom counts for the current residue
-        for atom in atoms:
-            atom_counts[row['residue']][atom] = int(row[atom])
-
-    return atom_counts
+    
+    raise NotImplementedError('read_atom_count_table not implemented.')
 
 
 def calc_formula(sequence, residue_atoms):
@@ -70,18 +63,12 @@ def calc_formula(sequence, residue_atoms):
     '''
 
     # Initialize empty Counter container to add residue formulas to
-    formula = Counter()
 
     # Iterate through sequence and update formula
-    for aa in sequence:
-        formula.update(residue_atoms[aa])
 
     # Don't forget to add the N and C terminus
-    for t in ['N_term', 'C_term']:
-        formula.update(residue_atoms[t])
 
-    return formula
-
+    raise NotImplementedError('calc_formula not implemented.')
 
 def format_formula(formula_counter):
     '''
@@ -99,14 +86,11 @@ def format_formula(formula_counter):
     '''
 
     # Initialize string to return
-    pretty_formula = ''
 
     # Iterate through items in formula_counter and append string to pretty_formula
-    for k, v in formula_counter.items():
-        if v > 0:
-            pretty_formula += '{}{}'.format(k, '' if v == 1 else v)
 
-    return pretty_formula
+    raise NotImplementedError('format_formula not implemented.')
+
 
 
 def calc_mass(formula_counter):
@@ -125,13 +109,10 @@ def calc_mass(formula_counter):
     '''
 
     # Initialize mass
-    mass = float()
 
     # Iterate through items in formula_counter and add their masses to mass.
     # Use ATOM_MASSES to look up atom masses.
-    for atom, count in formula_counter.items():
-        mass += (ATOM_MASSES[atom] * count)
 
-    return mass
+    raise NotImplementedError('calc_mass not implemented.')
 
 
